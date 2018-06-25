@@ -1,0 +1,51 @@
+en:
+  logo: <img src="/images/en-logo.svg"/>
+
+  hello_astana: "Hello Utrecht"
+  home_title: "Hello Utrecht"
+
+  how_it_works_link: "How It Works"
+  information_link: "Information"
+  contact_link: "Contact"
+  
+  description: "Utrecht's street objects are coming to life and they want to talk to you!"
+  opening_line: "Live from August 12 to October 8 2018."
+  how_it_works: "How It Works"
+
+  pick_an_object: "Choose an Object"
+  pick_an_object_text: "Look out for a street object with a yellow coded sticker on it"
+
+  say_hello: "Say Hello"
+  say_hello_text: "Send a text in this format: \"Hello + object type + #code\" to (XXX) XXX-XXXX (e.g. \"Hello Object #XXXX\")"
+
+  keep_talking: "Keep Talking"
+  keep_talking_text: "You’ll soon get a reply! Answer the object’s questions and learn what other people have to say."
+
+  information: "About Hello Lamp Post"
+  information_title: "Have you ever wondered what it would be like to talk to the city that you live in?"
+  information_text: "Around the world, cities have been waking up and talking to their residents (Japan, Singapore, UK, Kazakhstan, France and the USA). Now for the first time ever, Utrecht's street furniture is waking up to talk to you!"
+  infomation_text_2: "Objects are curious about the world they find themselves in and want to ask you questions. They want to know about the local area; the people’s memories and favorite things; what they believe in and what they care about and much, much more."
+  information_cta_1: "Show More"
+  information_cta_2: "Show Less"
+
+  more_information: "More Information"
+  more_information_text_1: "During your next visit to Utrecht, look closely for yellow stickers on familiar street furniture. The bright markers identify objects that are part of Hello Utrecht, a playful public art project."
+  more_information_text_2: "All you need to chat with the objects (things like trash cans, benches and bus stops) is a basic mobile phone! It’s free to play (standard SMS and data rates apply) and suitable for all ages."
+  more_information_text_3: "Hello Utrecht encourages people to look at the city with fresh eyes and engage with systems we often take for granted – a chance for us to slow down, reflect and see the city as a playground."
+  more_information_text_4: "The interactions takes the form of a conversation. The objects are curious about the world they find themselves in and want to ask questions about it. The responses they receive are then shared with other players meaning an object understands the personality and people of the local area."
+  more_information_text_5: "Conversations await in Utrecht, get chatting with the street landmarks now through to October 8. See if you can find them all!"
+  
+  contact_us: "About Us"
+  contact_us_title: "About Hello Utrecht"
+  contact_us_text_1: "Hello Utrecht will run from the 12th August to the 8th October 2018 in partnership with Raum."
+  contact_us_text_2: "Hello Lamp Post was built by PAN Studio and was first commissioned for Watershed’s Playable City Award 2013 which ran for 8 weeks in Bristol."
+  contact_us_text_3: "If you have any questions about the project you can get in touch with us using the link below."
+  contact_us_text_4: ""
+  contact_us_cta: "Get In Touch"
+  
+  hello_lampost_brighton: "Talk to Object 1! Text: \"Hello Object 1 #XXX\" to (XXX) XXX-XXXX"
+  hello_lampost_austin: "Speak to a Object 2! Text: \"Hello Object 2 #XXX\" to (XXX) XXX-XXXX"
+  hello_lampost_singapore: "Chat with a Object 3! Text: \"Hello Object 3 #XXX\" to (XXX) XXX-XXXX"
+  hello_lampost_bristol: "Speak to a Object 4! Text: \"Hello Object 4 #XXX\" to (XXX) XXX-XXXX"
+
+  to_top: "To Top"
