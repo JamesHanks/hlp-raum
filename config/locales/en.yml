@@ -43,9 +43,9 @@ en:
   contact_us_text_4: ""
   contact_us_cta: "Get In Touch"
   
-  hello_lampost_brighton: "Talk to Object 1! Text: \"Hello Object 1 #XXX\" to (XXX) XXX-XXXX"
-  hello_lampost_austin: "Speak to a Object 2! Text: \"Hello Object 2 #XXX\" to (XXX) XXX-XXXX"
-  hello_lampost_singapore: "Chat with a Object 3! Text: \"Hello Object 3 #XXX\" to (XXX) XXX-XXXX"
-  hello_lampost_bristol: "Speak to a Object 4! Text: \"Hello Object 4 #XXX\" to (XXX) XXX-XXXX"
+  hello_lampost_brighton: "Text: \"Hello Object 1 #XXX\" to (XXX) XXX-XXXX"
+  hello_lampost_austin: "Text: \"Hello Object 2 #XXX\" to (XXX) XXX-XXXX"
+  hello_lampost_singapore: "Text: \"Hello Object 3 #XXX\" to (XXX) XXX-XXXX"
+  hello_lampost_bristol: "Text: \"Hello Object 4 #XXX\" to (XXX) XXX-XXXX"
 
   to_top: "To Top"

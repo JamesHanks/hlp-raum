@@ -3,34 +3,6 @@
 // 	Sections
 // =================================================================
 
-@-moz-document url-prefix() {
-    #mesaMap { display: none; }
-}
-
-#mesaMap {
-	@include mq("small", "max-width") {
-		display: none;
-	}
-}
-
-#mapLink{
-	display: none;
-	@include mq("small", "max-width") { display: inline;}
-
-	.row{
-		margin: 0 0 60px 0;
-	}
-
-	.link-btn-one {
-		background: $colorTwo;
-		color: $colorOne;
-		max-width: 270px;
-		&:after {
-			background-image: url('/images/arrow-yellow.svg');
-		}
-	}
-}
-
 .pop-up {
 	display: block;
 	width: 320px;

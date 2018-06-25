@@ -281,6 +281,7 @@ h3 {
 
 h4 {
   font-size: 1em;
+  text-transform: uppercase;
   font-family: "Gotham", sans-serif; }
 
 h5 {
@@ -707,7 +708,8 @@ header {
   header .menu {
     margin-top: 8px; }
     header .menu ul li {
-      margin-right: 25px; }
+      margin-right: 25px;
+      text-transform: uppercase; }
     header .menu a {
       color: #2A2A2A;
       font-size: 1.1em;
@@ -791,7 +793,8 @@ a {
   color: #2a2a2a;
   font-family: "Gotham-Bold", sans-serif;
   font-size: 1em;
-  border: 0; }
+  border: 0;
+  text-transform: uppercase; }
   .link-btn-one:after {
     content: "";
     display: block;
@@ -821,27 +824,6 @@ a {
   float: right;
   margin-top: 100px;
   z-index: 100; }
-
-@-moz-document url-prefix() {
-  #mesaMap {
-    display: none; } }
-@media (max-width: 960px) {
-  #mesaMap {
-    display: none; } }
-
-#mapLink {
-  display: none; }
-  @media (max-width: 960px) {
-    #mapLink {
-      display: inline; } }
-  #mapLink .row {
-    margin: 0 0 60px 0; }
-  #mapLink .link-btn-one {
-    background: #2A2A2A;
-    color: #ffd100;
-    max-width: 270px; }
-    #mapLink .link-btn-one:after {
-      background-image: url("/images/arrow-yellow.svg"); }
 
 .pop-up {
   display: block;
