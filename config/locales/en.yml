@@ -12,13 +12,13 @@ en:
   opening_line: "Live from August 12 to October 8 2018."
   how_it_works: "How It Works"
 
-  pick_an_object: "Choose an Object"
+  pick_an_object: "1. Choose an Object"
   pick_an_object_text: "Look out for a street object with a yellow coded sticker on it"
 
-  say_hello: "Say Hello"
+  say_hello: "2. Say Hello"
   say_hello_text: "Send a text in this format: \"Hello + object type + #code\" to (XXX) XXX-XXXX (e.g. \"Hello Object #XXXX\")"
 
-  keep_talking: "Keep Talking"
+  keep_talking: "3. Keep Talking"
   keep_talking_text: "You’ll soon get a reply! Answer the object’s questions and learn what other people have to say."
 
   information: "About Hello Lamp Post"
