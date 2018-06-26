@@ -6,7 +6,7 @@
 .pop-up {
 	display: block;
 	width: 320px;
-	background: #44BFEF;
+	background: $colorThree;
 	position: absolute;
 	top: 0;
 	right: 0;
@@ -16,14 +16,10 @@
 	z-index: 1000;
 
 	p {
-		color: #fff;
+		color: $colorWhite;
 		padding: 0;
 		padding-right: 20px;
 		font-size: 14px;
-	}
-
-	span {
-		color: #E5087E;
 	}
 
 	p:after {
@@ -68,12 +64,13 @@
 }
 
 .hero {
+
 	width: 100%;
 	height: 120vh;
 	max-height: 848px;
 	margin: 0;
 	padding: 90px 0 0 0;
-	background: #ffd100;
+	background: $colorOne;
 	position: relative;
 	overflow: hidden;
 	text-align: center;
@@ -169,7 +166,7 @@
 	}
 
 	.object-ref a {
-	  border-bottom: 2px solid black;
+		border-bottom: 2px solid black;
 	}
 
 	@include mq("medium", "max-width") {
@@ -267,7 +264,7 @@
 			display: block;
 			float: none;
 			margin: 0 auto;
-			color: #fff;
+			color: $colorWhite;
 		}
 
 		.col-6 h1 {
@@ -277,23 +274,23 @@
 
 
 	.bubble {
-	  margin-top: 50px;
-	  @include calc(width, "50% - 15px");
-	  box-sizing: border-box;
-	  position: absolute;
-	  z-index: 10;
+		margin-top: 50px;
+		@include calc(width, "50% - 15px");
+		box-sizing: border-box;
+		position: absolute;
+		z-index: 10;
 	}
 
 	.bubble.question {
-	  left: 0;
-	  transform: translateX(0%);
-	  @include transition(all, 0.5s, ease-in-out);
+		left: 0;
+		transform: translateX(0%);
+		@include transition(all, 0.5s, ease-in-out);
 	}
 
 	.bubble.answer {
-	  right: 0;
-	  transform: translateX(0%);
-	  @include transition(all, 0.5s, ease-in-out);
+		right: 0;
+		transform: translateX(0%);
+		@include transition(all, 0.5s, ease-in-out);
 	}
 
 	img.bg-image {
@@ -303,38 +300,38 @@
 	}
 
 	.bubble.question {
-	  top: 60px;
+		top: 60px;
 	}
 
 	.bubble.answer {
-	  top: 80px;
+		top: 80px;
 	}
 
 	.bubble .bubble-inner {
-	  width: 100%;
-	  box-sizing: border-box;
-	  padding: 25px;
-	  background: $colorTwo;
-	  color: #fff;
-	  z-index: 2;
-	  font-size: 21px;
-	  font-family: "Gotham-bold", sans-serif;
-	  line-height: 1.3;
-	  @include border-radius(0 10px 10px 10px);
+		width: 100%;
+		box-sizing: border-box;
+		padding: 25px;
+		background: $colorTwo;
+		color: $colorWhite;
+		z-index: 2;
+		font-size: 21px;
+		font-family: "Gotham-bold", sans-serif;
+		line-height: 1.3;
+		@include border-radius(0 10px 10px 10px);
 
-	  &:after {
-	  	content: "";
-	  	display: block;
-	  	background-image: url('/images/bubble_triangle.svg');
-	  	background-position: 0 0;
-	  	background-repeat: no-repeat;
-	  	background-size: 100% 100%;
-	  	width: 40px;
-	  	height: 40px;
-	  	position: absolute;
-	  	top: -30px;
-	  	left: 0;
-	  }
+		&:after {
+			content: "";
+			display: block;
+			background-image: url('/images/bubble_triangle.svg');
+			background-position: 0 0;
+			background-repeat: no-repeat;
+			background-size: 100% 100%;
+			width: 40px;
+			height: 40px;
+			position: absolute;
+			top: -30px;
+			left: 0;
+		}
 	}
 
 	.bubble.answer .bubble-inner {
@@ -350,33 +347,33 @@
 	}
 
 	.bubble h4 {
-		color: #ffd100;
+		color: $colorOne;
 		font-family: "Gotham-bold", sans-serif;
 		padding-bottom: 20px;
 	}
 
 	.bubble.question h4 {
-		color: #4BC0ED;
+		color: $colorThree;
 	}
 
 	.bubble.answer.off {
-	  transform: translateX(150%);
-	  right: 0;
-	  @include transition(all, 0.5s, ease-in-out);
+		transform: translateX(150%);
+		right: 0;
+		@include transition(all, 0.5s, ease-in-out);
 	}
 
 	.bubble.question.off {
-	  transform: translateX(-150%);
-	  left: 0;
-	  @include transition(all, 0.5s, ease-in-out);
+		transform: translateX(-150%);
+		left: 0;
+		@include transition(all, 0.5s, ease-in-out);
 	}
 
 	.bubble.question .text {
-	  border-bottom-left-radius: 0;
+		border-bottom-left-radius: 0;
 	}
 
 	.bubble.answer .text {
-	  border-top-right-radius: 0;
+		border-top-right-radius: 0;
 	}
 
 	.buttons {
@@ -395,21 +392,21 @@
 		margin-right: 30px;
 		margin: 0;
 		font-family: "Gotham-bold", sans-serif;
-		background: #2A2A2A;
+		background: $colorTwo;
 		border: 0;
 		font-size: 0.9em;
 		box-sizing: border-box;
 		border-radius: 0;
 		@include border-radius(5px);
 		-webkit-appearance: none;
-   		-moz-appearance: none;
-   		appearance: none;
-   		cursor: pointer;
-   		color: #ffd100;
-   		&:hover {
-   		}
+		-moz-appearance: none;
+		appearance: none;
+		cursor: pointer;
+		color: $colorOne;
+		&:hover {
+		}
 
-   		&:after {
+		&:after {
 			content: "";
 			display: block;
 			width: 17px;
@@ -421,46 +418,46 @@
 			float: right;
 			margin-left: 10px;
 		}
-   	}
+	}
 
-   	button.new-question {
-   		color: #4BC0ED;
-   		&:after {
-   			transform: rotate(180deg);
-   			float: left;
-   			background-image: url('/images/arrow-blue.svg');
-   			margin-left: 0px;
-   			margin-right: 10px;
-   		}
+	button.new-question {
+		color: $colorThree;
+		&:after {
+			transform: rotate(180deg);
+			float: left;
+			background-image: url('/images/arrow-blue.svg');
+			margin-left: 0px;
+			margin-right: 10px;
+		}
 
-   		&:hover {
-   		}
-   	}
+		&:hover {
+		}
+	}
 
-   	button:nth-child(2) {
-   		float: right;
-   	}
+	button:nth-child(2) {
+		float: right;
+	}
 
 	.bubble.question .shadow {
-	  left: -40px;
+		left: -40px;
 	}
 
 	.bubble.answer .shadow {
-	  top: 190px;
-	  left: 40px;
+		top: 190px;
+		left: 40px;
 	}
 
 	.bubble.question {
-	  padding-bottom: 25px;
+		padding-bottom: 25px;
 	}
 
 	.bubble.answer {
-	  padding-top: 25px;
+		padding-top: 25px;
 	}
 
 	.bubble .object-ref {
 		font-family: "Gotham-bold", sans-serif;
-		color: #fff;
+		color: $colorWhite;
 		height: 25px;
 		padding-top: 5px;
 		padding-left: 10px;
@@ -475,7 +472,7 @@
 	}
 
 	.bubble .object-ref a {
-		color: #fff;
+		color: $colorWhite;
 		border-bottom: 0;
 	}
 
@@ -532,13 +529,13 @@
 		}
 
 		.bubble.answer {
-	  		top: 200px;
+			top: 200px;
 		}
 
 		.bubble .bubble-inner {
-		  &:after {
-		  	top: -15px;
-		  }
+			&:after {
+				top: -15px;
+			}
 		}
 
 		.bubble .question{
@@ -608,12 +605,12 @@
 
 		h4 {
 			font-family: "Gotham-Bold", sans-serif;
-			color: #fff;
+			color: $colorWhite;
 			margin-bottom: 10px;
 		}
 
 		p, span {
-			color: #fff;
+			color: $colorWhite;
 		}
 
 		&:after {
@@ -631,7 +628,7 @@
 	}
 
 	p a {
-		color: #fff;
+		color: $colorWhite;
 	}
 
 	.top-img {
@@ -651,7 +648,7 @@
 		display: block;
 		margin: 0 auto;
 		text-align: center;
-		border: 3px solid #fff;
+		border: 3px solid $colorWhite;
 		margin-bottom: 30px;
 
 		img {
@@ -724,7 +721,7 @@
 	}
 
 	h1 {
-		color: #44BFEF;
+		color: $colorThree;
 		line-height: 1.2;
 		margin-bottom: 30px;
 	}
@@ -736,7 +733,10 @@
 
 	.link-btn-one {
 		margin-top: 40px;
-		background: #44BFEF;
+		background: $colorThree;
+
+		&:hover{
+		}
 	}
 
 	.link-btn-one:after {
@@ -793,7 +793,7 @@
 	display: block;
 	overflow: hidden;
 	position: relative;
-	background: #44BFEF;
+	background: $colorThree;
 	display: none;
 
 	.col-6 {
@@ -890,6 +890,9 @@
 		&:after {
 			background-image: url('/images/arrow-yellow.svg');
 		}
+
+		&:hover{
+		}
 	}
 
 	.right-block {
@@ -921,7 +924,7 @@
 		}
 
 		span {
-			color: #fff;
+			color: $colorWhite;
 		}
 	}
 
@@ -985,7 +988,7 @@
 		}
 
 		.col-3:nth-child(3) {
-		clear: both;
+			clear: both;
 		}
 
 		.col-3 img {
