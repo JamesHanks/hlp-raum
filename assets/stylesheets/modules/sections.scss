@@ -80,11 +80,6 @@
 		margin: auto;
 	}
 
-	.buttons{
-		min-width: 450px;
-		text-transform: uppercase;
-	}
-
 	h2 {
 		font-size: 1.5em;
 		text-align: center;
@@ -199,11 +194,6 @@
 		margin-top: 68px;
 		max-height: auto;
 		padding: 20px 0 100px 0;
-
-		.buttons{
-			min-width: 0;
-			text-transform: uppercase;
-		}
 
 		.col-6 {
 			width: 100%;
@@ -476,7 +466,6 @@
 		border-radius: 2px 2px 0 0;
 		z-index: 2;
 		opacity: 0.3;
-		text-transform: uppercase;
 		font-size: 0.7em;
 	}
 
