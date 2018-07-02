@@ -66,8 +66,8 @@ header {
 			visibility: hidden;
 			-webkit-transform: scaleX(0);
 			transform: scaleX(0);
-			-webkit-transition: all 0.2s ease-in-out 0s;
-			transition: all 0.2s ease-in-out 0s;
+			-webkit-transition: $hover;
+			transition: $hover;
 		}
 
 		a:hover {

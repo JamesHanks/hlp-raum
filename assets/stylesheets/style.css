@@ -608,7 +608,7 @@ footer {
     color: #FFFFFF;
     border-bottom: 2px solid #FFD100;
     padding-bottom: 5px;
-    transition: all 0.3s ease-in-out; }
+    transition: all 0.4s ease-in-out; }
   footer a:hover {
     opacity: 1; }
   footer .right {
@@ -635,7 +635,7 @@ header {
   padding: 10px 0;
   background: #FFD100;
   height: 50px;
-  transition: all 0.3s ease-in-out; }
+  transition: all 0.4s ease-in-out; }
   header.nav-up {
     top: -120px; }
   header .logo img {
@@ -674,8 +674,8 @@ header {
       visibility: hidden;
       -webkit-transform: scaleX(0);
       transform: scaleX(0);
-      -webkit-transition: all 0.2s ease-in-out 0s;
-      transition: all 0.2s ease-in-out 0s; }
+      -webkit-transition: all 0.4s ease-in-out;
+      transition: all 0.4s ease-in-out; }
     header .menu a:hover {
       color: #2A2A2A; }
     header .menu a:hover:before {
@@ -832,6 +832,9 @@ a {
     float: none;
     display: block;
     margin: auto; }
+  .hero .buttons {
+    min-width: 450px;
+    text-transform: uppercase; }
   .hero h2 {
     font-size: 1.5em;
     text-align: center;
@@ -920,6 +923,9 @@ a {
       margin-top: 68px;
       max-height: auto;
       padding: 20px 0 100px 0; }
+      .hero .buttons {
+        min-width: 0;
+        text-transform: uppercase; }
       .hero .col-6 {
         width: 100%; }
       .hero .scroll-down-button {

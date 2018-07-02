@@ -14,7 +14,7 @@ $breakpoints: (
   "extra-extra-large" 1800px
 );
 
-$hover: all 0.3s ease-in-out;
+$hover: all 0.4s ease-in-out;
 
 @mixin mq($size, $type: "min-width") { 
   @each $breakpoint in $breakpoints {
