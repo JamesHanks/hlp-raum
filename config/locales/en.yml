@@ -16,7 +16,7 @@ en:
   pick_an_object_text: "Look out for a street object with a yellow coded sticker on it"
 
   say_hello: "2. Say Hello"
-  say_hello_text: "Send a text in this format: \"Hello + object type + #code\" to +31 97 00 44 99 0 99 (e.g. \"Hello Object #XXXX\")"
+  say_hello_text: "Send a text in this format: \"Hello + object type + #code\" to +31 97 00 44 99 0 99 (e.g. \"Hello Fire Hydrant #5\")"
 
   keep_talking: "3. Keep Talking"
   keep_talking_text: "You’ll soon get a reply! Answer the object’s questions and learn what other people have to say."
