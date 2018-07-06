@@ -178,7 +178,6 @@
 			display: block;
 		}
 
-
 		img {
 			display: block;
 			width: 150%;
@@ -964,6 +963,15 @@
 	height: auto;
 	overflow: auto;
 	background: $colorTwo;
+	
+
+	a{
+		transition: $hover;
+	}
+
+	a:hover{
+		opacity: 0.75;
+	}
 
 	h4 {
 		color: #fff;
@@ -988,14 +996,16 @@
 		}
 
 		.col-3 {
-			width: 25%;
+			width: 33.3%;
 			display: inline;
+			margin: 0;
+			padding: 0;
 		}
 
 		.col-3 img {
 			width: 100%;
-			padding: 0 0;
-
+			padding: 0;
+			margin: 0;
 		}
 	}
 }

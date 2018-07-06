@@ -1465,6 +1465,10 @@ a {
   height: auto;
   overflow: auto;
   background: #2A2A2A; }
+  .supporters a {
+    transition: all 0.3s ease-in-out; }
+  .supporters a:hover {
+    opacity: 0.75; }
   .supporters h4 {
     color: #fff;
     margin-top: 40px; }
@@ -1482,10 +1486,13 @@ a {
         margin-bottom: 40px;
         margin-top: 0px; }
       .supporters .col-3 {
-        width: 25%;
-        display: inline; }
+        width: 33.3%;
+        display: inline;
+        margin: 0;
+        padding: 0; }
       .supporters .col-3 img {
         width: 100%;
-        padding: 0 0; } }
+        padding: 0;
+        margin: 0; } }
 
 /*# sourceMappingURL=style.css.map */
