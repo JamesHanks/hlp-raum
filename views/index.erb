@@ -58,36 +58,36 @@
       </div>
     </div>
   </section>
-    
-    <section class="hero message">
-      <div class="grid-container">
-          <div class="row text-row">
-            <div class="col-6">
-              <h1>What is Utrecht Talking About?</h1>
-            </div>
-          </div>
-            <div class="conversation-demo">
-                <div class="bubble question" id="question-bubble">
-                  <div class="bubble-inner">
-                    <h4>Question</h4>
-                    <div class="text">Insert question here.</div>
-                  </div>
-                </div>
-                <div class="bubble answer" id="answer-bubble">
-                  <div class="bubble-inner">
-                    <h4>Answer</h4>
-                    <div class="text">Insert answer here.</div>
-                  </div>
-                  <div class="object-ref">Object #???</div>
-                </div>
-                <div class="buttons">
-                  <button class="new-question hidden" id="new-question-button">Next Question</button>
-                  <button class="next-answer hidden" id="next-answer-button">Next Answer</button>
-              </div>
-            </div>
+
+  <section class="hero message">
+    <div class="grid-container">
+      <div class="row text-row">
+        <div class="col-6">
+          <h1>What is Utrecht Talking About?</h1>
         </div>
-    </section>
-  
+      </div>
+      <div class="conversation-demo">
+        <div class="bubble question" id="question-bubble">
+          <div class="bubble-inner">
+            <h4>Question</h4>
+            <div class="text">Insert question here.</div>
+          </div>
+        </div>
+        <div class="bubble answer" id="answer-bubble">
+          <div class="bubble-inner">
+            <h4>Answer</h4>
+            <div class="text">Insert answer here.</div>
+          </div>
+          <div class="object-ref">Object #???</div>
+        </div>
+        <div class="buttons">
+          <button class="new-question hidden" id="new-question-button">Next Question</button>
+          <button class="next-answer hidden" id="next-answer-button">Next Answer</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
   <section id="information" class="information">
     <img src="/images/bg-how-it-works.jpg">
     <div class="right-block"></div>
@@ -121,8 +121,14 @@
         <p><%= I18n.t(:contact_us_text_1) %></p>
         <p><%= I18n.t(:contact_us_text_2) %></p>
         <p><%= I18n.t(:contact_us_text_3) %></p>
-        <p><%= I18n.t(:contact_us_text_4) %></p>
+        <!-- <p><%= I18n.t(:contact_us_text_4) %></p> -->
         <a class="link-btn-one" href="mailto:contact@panstudio.co.uk?Subject=Hello%20Astana%20Enquiry"><%= I18n.t(:contact_us_cta) %></a>
+        <div class="logo-container">
+          <p>Find us on:</p>
+          <a href="https://twitter.com/hellolamppost_" target="_blank"><img src="/images/twitter.svg"></a>
+          <a href="https://www.facebook.com/Hello-Lamp-Post-171475660169073/" target="_blank"><img src="/images/facebook.svg"></a>
+          <a href="https://instagram.com/hellolamppost_" target="_blank"><img src="/images/instagram.svg"></a>
+        </div>
       </div>
       <div class="col-4">
         <div class="swiper-controls">
@@ -163,14 +169,14 @@
     <div class="row">
       <div class="col-3 shift-1">
         <a href="http://hellolamppost.co.uk/" target="_blank"><img src="/images/hello-lamp-post-logo.png">
-      </div>
-      <div class="col-3">
-        <a href="http://raumutrecht.nl/" target="_blank"><img src="/images/raum-logo.png"></a>
-      </div>
-      <div class="col-3">
-        <a href="https://www.ns.nl" target="_blank"><img src="/images/ns-logo.png"></a>
+        </div>
+        <div class="col-3">
+          <a href="http://raumutrecht.nl/" target="_blank"><img src="/images/raum-logo.png"></a>
+        </div>
+        <div class="col-3">
+          <a href="https://www.ns.nl" target="_blank"><img src="/images/ns-logo.png"></a>
+        </div>
       </div>
     </div>
-  </div>
-</section>
+  </section>
 </article>

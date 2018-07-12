@@ -819,8 +819,6 @@ a {
 
 .hero {
   width: 100%;
-  height: 120vh;
-  max-height: 848px;
   margin: 0;
   padding: 90px 0 0 0;
   background: #FFD100;
@@ -901,17 +899,21 @@ a {
   .hero .object-ref a {
     border-bottom: 2px solid black; }
   @media (max-width: 1130px) {
-    .hero .col-4 {
-      width: 350px; }
-    .hero .scroll-down-button {
-      bottom: 60px;
-      display: block; }
-    .hero img {
-      display: block;
-      width: 150%;
-      height: auto;
-      float: none;
-      margin: 0 auto; } }
+    .hero {
+      /*
+      img {
+      	display: block;
+      	width: 150%;
+      	height: auto;
+      	float: none;
+      	margin: 0 auto;
+      }
+      */ }
+      .hero .col-4 {
+        width: 350px; }
+      .hero .scroll-down-button {
+        bottom: 60px;
+        display: block; } }
   @media (max-width: 960px) {
     .hero {
       height: auto;
@@ -1417,6 +1419,18 @@ a {
   .contact p a {
     color: #2A2A2A;
     border-bottom: 2px solid #2A2A2A; }
+  .contact .logo-container {
+    margin: 35px 0; }
+    .contact .logo-container a {
+      width: 33.3%; }
+      .contact .logo-container a img {
+        max-width: 50px;
+        margin-right: 20px;
+        transition: all 0.3s ease-in-out;
+        position: relative;
+        top: 0; }
+        .contact .logo-container a img:hover {
+          top: -5px; }
   .contact .link-btn-one {
     margin-top: 40px;
     background: #2A2A2A;

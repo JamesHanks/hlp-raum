@@ -41,7 +41,7 @@ class HelloLamppostWebsite < Sinatra::Base
 
   before /.*/ do
 
-    matches = request.path_info.match(/\A\/(kz|ru|en)(.*)/)
+    matches = request.path_info.match(/\A\/(nl|ru|en)(.*)/)
 
     if matches
       I18n.locale       = matches[1]
