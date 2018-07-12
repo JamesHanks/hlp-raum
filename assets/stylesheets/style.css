@@ -702,8 +702,8 @@ header {
     box-sizing: border-box; }
   header .country-picker ul li a.en {
     background-image: url("/images/flag-en.svg"); }
-  header .country-picker ul li a.kz {
-    background-image: url("/images/flag-kz.svg"); }
+  header .country-picker ul li a.nl {
+    background-image: url("/images/flag-nl.svg"); }
   header .country-picker ul li a.ru {
     background-image: url("/images/flag-ru.svg"); }
   @media (max-width: 1130px) {
