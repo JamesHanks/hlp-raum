@@ -1,5 +1,5 @@
 nl:
-  logo: <img src="/images/logo-nl.png"/>
+  logo: <img src="/images/logo-nl.svg"/>
 
   hello_astana: "Сәлем Астана - kz"
   home_title: "Сәлем Астана - kz"
@@ -8,7 +8,7 @@ nl:
   information_link: "Ақпарат"
   contact_link: "Байланыс"
   
-  description: "Астана қаласы жанданып, сенімен сөйлескісі келеді. Сәлем Астана қаланың барлық аумағын қамтып, 10-шы тамыздан 30-шы қыркүйекке дейін жалғасады."
+  description: "De worken қаласы жанданып, сенімен сөйлескісі келеді. Сәлем Астана қаланың барлық аумағын қамтып, 10-шы тамыздан 30-шы қыркүйекке дейін жалғасады."
   opening_line: ""
   how_it_works: "Бұл қалай жұмыс істейді"
 
@@ -40,12 +40,12 @@ nl:
   contact_us_text_1: "Сәлем Астана Британдық Кеңес тапсырысы бойынша, Қаланы дамыту орталығы мен Астана қаласының қолдауымен жасалған."
   contact_us_text_2: "Ол The Playable City, Watershed Arts Trust компаниясының сауда таңбасымен, шығарылған."
   contact_us_text_3: "Сәлем Астана - PAN студиясы ойлап тапқан Hello Lamp Post жоба жинағының бір бөлігі. Hello Lamp Post жобасы алғаш рет Watershed компаниясының Playable City 2013 сыйлығы үшін жасалды және Бристоль қаласында 8 апта бойы жалғасты. Жобаны Том Армитидж және Дьёрдь Галик жасады."
-  contact_us_text_4: "Егер сенде жоба туралы сұрақтарың бар болса, бізбен хабарлас."
+  contact_us_text_4: "Locaten nos en:"
   contact_us_cta: "хабарласу"
   
-  hello_lampost_brighton: "2016 жылдың қыркүйегінде Брайтон Диджитал фестивалі аясында біз көше жиһазын жандандырдық."
-  hello_lampost_austin: "SXSW фестивалі аясында 2015 жылдың наурыз айында біз Hello Lamp Post жобасын Остин қаласына алып келдік"
-  hello_lampost_singapore: "2015 жылдың қазан айында SG50 аясында Hello Lamp Post жобасын Сингапур қаласына алып келдік"
-  hello_lampost_bristol: "Hello Lamp Post жобасы Бристоль қаласында 2013 жылы алғаш рет көрсетілді, онда сегіз апта ішінде 25,000 хабарлама жіберілді"
+  object_1: "Text: \"Hallo Konijn #RAUM1\" <br> Naar: +31 97 00 44 99 0 99"
+  object_2: "Text: \"Hallo Huis #RAUM5\" <br> Naar: +31 97 00 44 99 0 99"
+  object_3: "Text: \"Hallo Vredenburg Standbeeld #Tivoli\" <br> Naar: +31 97 00 44 99 0 99"
+  object_4: "Text: \"Hallo Berg #RAUM2\" <br> Naar: +31 97 00 44 99 0 99"
 
   to_top: "Жоғарғы жаққа [«беттің жоғарғы жағына» ретінде]"

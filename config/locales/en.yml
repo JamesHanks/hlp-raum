@@ -16,7 +16,7 @@ en:
   pick_an_object_text: "Look out for a street object with a yellow coded sticker on it"
 
   say_hello: "2. Say Hello"
-  say_hello_text: "Send a text in this format: \"Hello + object type + #code\" to +31 97 00 44 99 0 99 (e.g. \"Hello Fire Hydrant #5\")"
+  say_hello_text: "Send a text in this format: \"Hello + object type + #code\" to +31 97 00 44 99 0 99 (e.g. \"Hello Fire Hydrant #CST\")"
 
   keep_talking: "3. Keep Talking"
   keep_talking_text: "You’ll soon get a reply! Answer the object’s questions and learn what other people have to say."
@@ -40,12 +40,12 @@ en:
   contact_us_text_1: "Hello Utrecht will run from the 12th August to the 8th October 2018 in partnership with Raum."
   contact_us_text_2: "Hello Lamp Post was built by PAN Studio and was first commissioned for Watershed’s Playable City Award 2013 which ran for 8 weeks in Bristol."
   contact_us_text_3: "If you have any questions about the project you can get in touch with us using the link below."
-  contact_us_text_4: ""
+  contact_us_text_4: "Find us on:"
   contact_us_cta: "Get In Touch"
   
-  hello_lampost_brighton: "Text: \"Hello Object 1 #XXX\" <br> To: +31 97 00 44 99 0 99"
-  hello_lampost_austin: "Text: \"Hello Object 2 #XXX\" <br> To: +31 97 00 44 99 0 99"
-  hello_lampost_singapore: "Text: \"Hello Object 3 #XXX\" <br> To: +31 97 00 44 99 0 99"
-  hello_lampost_bristol: "Text: \"Hello Object 4 #XXX\" <br> To: +31 97 00 44 99 0 99"
+  object_1: "Text: \"Hallo Rabbit #RAUM1\" <br> To: +31 97 00 44 99 0 99"
+  object_2: "Text: \"Hallo House #RAUM5\" <br> To: +31 97 00 44 99 0 99"
+  object_3: "Text: \"Hallo Vredenburg Standbeeld #Tivoli\" <br> To: +31 97 00 44 99 0 99"
+  object_4: "Text: \"Hallo Mountain #RAUM2\" <br> To: +31 97 00 44 99 0 99"
 
   to_top: "To Top"
