@@ -4,7 +4,7 @@ nl:
   hello_astana: "Hallo Utrecht"
   home_title: "Hallo Utrecht"
 
-  how_it_works_link: "How It Works"
+  how_it_works_link: "Hoe werkt het?"
   information_link: "Informatie"
   contact_link: "Contact"
   
@@ -27,18 +27,18 @@ nl:
   live_responses_next_answer: "Volgend Antwoord"
 
   information: "Over Hallo Lantaarnpaal"
-  information_title: "Have you ever wondered what it would be like to talk to the city that you live in?"
+  information_title: "Heb je je ooit afgevraagd hoe het zou zijn om te kunnen praten met de stad waarin je woont?"
   information_text: "Overal ter wereld komen steden tot leven. Ze gaan in gesprek met hun bewoners (Japan, Singapore, Verenigd Koninkrijk, Kazachstan, Frankrijk en Verenigde Staten). Dit is de eerste keer dat ook in Utrecht het straatmeubilair ontwaakt... om met jou te praten!"
   infomation_text_2: "Straatobjecten zijn nieuwsgierig naar hun omgeving en willen jou vragen stellen. Ze willen de buurt leren kennen, de herinneringen en favoriete plekken van de bewoners; waar geloven de mensen in, wat vinden ze belangrijk, en nog veel, veel meer."
   information_cta_1: "Meer"
   information_cta_2: "Minder"
 
   more_information: "Meer Informatie"
-  more_information_text_1: "During your next visit to Utrecht, look closely for yellow stickers on familiar street furniture. The bright markers identify objects that are part of Hello Utrecht, a playful public art project."
-  more_information_text_2: "All you need to chat with the objects (things like trash cans, benches and bus stops) is a basic mobile phone! It’s free to play (standard SMS and data rates apply) and suitable for all ages."
-  more_information_text_3: "Hello Utrecht encourages people to look at the city with fresh eyes and engage with systems we often take for granted – a chance for us to slow down, reflect and see the city as a playground."
-  more_information_text_4: "The interactions takes the form of a conversation. The objects are curious about the world they find themselves in and want to ask questions about it. The responses they receive are then shared with other players meaning an object understands the personality and people of the local area."
-  more_information_text_5: "Conversations await in Utrecht, get chatting with the street landmarks now through to October 8. See if you can find them all!"
+  more_information_text_1: "Kijk bij je volgende bezoek aan Utrecht eens om je heen of je gele stickers ziet op gewone straatobjecten. Objecten met een gele codesticker zijn onderdeel van Hallo Utrecht, een speels kunstproject in de publieke ruimte."
+  more_information_text_2: "Alles wat je nodig hebt om met de objecten (zoals vuilnisbakken, bankjes, bushaltes) te praten, is een simpele mobiele telefoon. Dit is een gratis spel (standaardtarieven voor SMS en data zijn van toepassing), geschikt voor alle leeftijden."
+  more_information_text_3: "Hallo Utrecht is een uitnodiging om de stad met andere ogen te bekijken en interactie aan te gaan met objecten waar we meestal geen aandacht aan schenken - een kans om een tandje terug te doen, te reflecteren en de stad als een speeltuin te beleven."
+  more_information_text_4: "Je raakt in gesprek met een object. Objecten zijn nieuwsgierig naar hun omgeving en willen jou vragen stellen. Antwoorden worden gedeeld met andere deelnemers zodat het object als het ware de persoonlijkheid van de stad en haar bewoners leert kennen."
+  more_information_text_5: "Ga nu het gesprek aan met het straatmeubilair in Utrecht, tot en met 8 oktober. Probeer alle objecten te vinden!"
   
   contact_us: "Over Ons"
   contact_us_title: "Over Hallo Utrecht"
@@ -48,9 +48,9 @@ nl:
   contact_us_text_4: "Vind ons op:"
   contact_us_cta: "Contact"
   
-  object_1: "Text: \"Hallo Rabbit #RAUM1\" <br> Naar: +31 97 00 44 99 0 99"
-  object_2: "Text: \"Hallo House #RAUM5\" <br> Naar: +31 97 00 44 99 0 99"
-  object_3: "Text: \"Hallo Vredenburg Standbeeld #Tivoli\" <br> Naar: +31 97 00 44 99 0 99"
-  object_4: "Text: \"Hallo Mountain #RAUM2\" <br> Naar: +31 97 00 44 99 0 99"
+  object_1: "SMS: \"Hallo Rabbit #RAUM1\" <br> Naar: +31 97 00 44 99 0 99"
+  object_2: "SMS: \"Hallo House #RAUM5\" <br> Naar: +31 97 00 44 99 0 99"
+  object_3: "SMS: \"Hallo Vredenburg Standbeeld #Tivoli\" <br> Naar: +31 97 00 44 99 0 99"
+  object_4: "SMS: \"Hallo Mountain #RAUM2\" <br> Naar: +31 97 00 44 99 0 99"
 
   to_top: "Naar Begin"
