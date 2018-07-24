@@ -58,7 +58,7 @@ class HelloLamppostWebsite < Sinatra::Base
 
   get '/questions/random' do
     cache_control :public, max_age: 0
-    url = "https://hello-lamp-post-api.herokuapp.com/questions/random?location_id=19&except=292&locale=en"
+    url = "https://hello-lamp-post-api.herokuapp.com/questions/random?location_id=19&except=292&locale=nl"
     open(url).read
   end
 

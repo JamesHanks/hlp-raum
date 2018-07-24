@@ -255,7 +255,7 @@
 
 .hero.message {
 	height: 90vh;
-	max-height: 560px;
+	max-height: 500px;
 	padding-top: 50px;
 
 	.text-row {
@@ -987,7 +987,7 @@
 	height: auto;
 	overflow: auto;
 	background: $colorTwo;
-	
+
 	a{
 		transition: $hover;
 	}

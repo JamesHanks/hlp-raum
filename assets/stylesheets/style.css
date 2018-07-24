@@ -956,7 +956,7 @@ a {
 
 .hero.message {
   height: 90vh;
-  max-height: 560px;
+  max-height: 500px;
   padding-top: 50px; }
   .hero.message .text-row {
     position: relative;
