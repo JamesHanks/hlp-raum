@@ -1147,7 +1147,7 @@ a {
     border-bottom: 0; }
   @media (max-width: 960px) {
     .hero.message {
-      height: 550px;
+      height: 600px;
       max-height: 850px;
       padding-top: 25px;
       margin-top: 0; }
