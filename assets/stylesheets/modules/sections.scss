@@ -68,7 +68,7 @@
 	//height: 120vh;
 	//max-height: 848px;
 	margin: 0;
-	padding: 90px 0 0 0;
+	padding: 90px 0 60px 0;
 	background: $colorOne;
 	position: relative;
 	overflow: hidden;
@@ -194,7 +194,7 @@
 		overflow: hidden;
 		margin-top: 68px;
 		max-height: auto;
-		padding: 20px 0 100px 0;
+		padding: 20px 0 50px 0;
 
 		.col-6 {
 			width: 100%;
@@ -234,6 +234,8 @@
 	}
 
 	@include mq("super-small", "max-width") {
+		padding: 20px 0 25px 0;
+
 		.scroll-down-button {
 			bottom: 50px;
 		}
@@ -252,7 +254,7 @@
 }
 
 .hero.message {
-	height: 100vh;
+	height: 90vh;
 	max-height: 560px;
 	padding-top: 50px;
 
@@ -381,7 +383,7 @@
 	}
 
 	.buttons {
-		width: 400px;
+		width: 460px;
 		position: relative;
 		display: block;
 		top: 290px;
@@ -493,7 +495,7 @@
 		}
 
 		button{
-			padding: 15px 5px;
+			padding: 15px 10px;
 		}
 
 		.buttons {
@@ -986,7 +988,6 @@
 	overflow: auto;
 	background: $colorTwo;
 	
-
 	a{
 		transition: $hover;
 	}

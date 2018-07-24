@@ -6,7 +6,7 @@ class HelloLamppostWebsite < Sinatra::Base
 
   configure do
     I18n.load_path = Dir[File.join(settings.root, 'config', 'locales', '*.yml')]
-    I18n.default_locale = :en
+    I18n.default_locale = :nl
     I18n.backend.load_translations
   end
 
@@ -41,7 +41,7 @@ class HelloLamppostWebsite < Sinatra::Base
 
   before /.*/ do
 
-    matches = request.path_info.match(/\A\/(nl|ru|en)(.*)/)
+    matches = request.path_info.match(/\A\/(nl|en)(.*)/)
 
     if matches
       I18n.locale       = matches[1]

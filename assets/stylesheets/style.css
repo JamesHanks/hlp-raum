@@ -820,7 +820,7 @@ a {
 .hero {
   width: 100%;
   margin: 0;
-  padding: 90px 0 0 0;
+  padding: 90px 0 60px 0;
   background: #FFD100;
   position: relative;
   overflow: hidden;
@@ -920,7 +920,7 @@ a {
       overflow: hidden;
       margin-top: 68px;
       max-height: auto;
-      padding: 20px 0 100px 0; }
+      padding: 20px 0 50px 0; }
       .hero .col-6 {
         width: 100%; }
       .hero .scroll-down-button {
@@ -942,8 +942,10 @@ a {
       .hero .shift-2 {
         margin-left: 0; } }
   @media (max-width: 595px) {
-    .hero .scroll-down-button {
-      bottom: 50px; } }
+    .hero {
+      padding: 20px 0 25px 0; }
+      .hero .scroll-down-button {
+        bottom: 50px; } }
   @media (max-width: 350px) {
     .hero h1 {
       font-size: 1.2em; }
@@ -953,7 +955,7 @@ a {
       width: calc(100% - 40px); } }
 
 .hero.message {
-  height: 100vh;
+  height: 90vh;
   max-height: 560px;
   padding-top: 50px; }
   .hero.message .text-row {
@@ -1066,7 +1068,7 @@ a {
   .hero.message .bubble .object-ref {
     text-transform: uppercase; }
   .hero.message .buttons {
-    width: 400px;
+    width: 460px;
     position: relative;
     display: block;
     top: 290px;
@@ -1155,7 +1157,7 @@ a {
         z-index: 0;
         width: 400%; }
       .hero.message button {
-        padding: 15px 5px; }
+        padding: 15px 10px; }
       .hero.message .buttons {
         width: 100%;
         top: 400px; }

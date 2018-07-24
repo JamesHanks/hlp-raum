@@ -10,7 +10,6 @@ en:
   
   description: "Utrecht's street objects are coming to life and they want to talk to you!"
   opening_line: "Live from August 12 to October 8 2018."
-  how_it_works: "How It Works"
 
   pick_an_object: "1. Choose an Object"
   pick_an_object_text: "Look out for a street object with a yellow coded sticker on it"
@@ -20,6 +19,12 @@ en:
 
   keep_talking: "3. Keep Talking"
   keep_talking_text: "You’ll soon get a reply! Answer the object’s questions and learn what other people have to say."
+
+  live_responses: "What is Utrecht Talking About?"
+  live_responses_question: "Question"
+  live_responses_answer: "Answer"
+  live_responses_next_question: "Next Question"
+  live_responses_next_answer: "Next Answer"
 
   information: "About Hello Lamp Post"
   information_title: "Have you ever wondered what it would be like to talk to the city that you live in?"
@@ -43,9 +48,9 @@ en:
   contact_us_text_4: "Find us on:"
   contact_us_cta: "Get In Touch"
   
-  object_1: "Text: \"Hallo Rabbit #RAUM1\" <br> To: +31 97 00 44 99 0 99"
-  object_2: "Text: \"Hallo House #RAUM5\" <br> To: +31 97 00 44 99 0 99"
-  object_3: "Text: \"Hallo Vredenburg Standbeeld #Tivoli\" <br> To: +31 97 00 44 99 0 99"
-  object_4: "Text: \"Hallo Mountain #RAUM2\" <br> To: +31 97 00 44 99 0 99"
+  object_1: "Text: \"Hello Rabbit #RAUM1\" <br> To: +31 97 00 44 99 0 99"
+  object_2: "Text: \"Hello House #RAUM5\" <br> To: +31 97 00 44 99 0 99"
+  object_3: "Text: \"Hello Vredenburg Standbeeld #Tivoli\" <br> To: +31 97 00 44 99 0 99"
+  object_4: "Text: \"Hello Mountain #RAUM2\" <br> To: +31 97 00 44 99 0 99"
 
   to_top: "To Top"

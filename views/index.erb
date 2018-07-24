@@ -23,7 +23,7 @@
         </div>
       </div>
       <div class="row" align="center">
-        <a class="js-scroll-down-button scroll-down-button"><%= I18n.t(:how_it_works) %></a>
+        <a class="js-scroll-down-button scroll-down-button"><%= I18n.t(:how_it_works_link) %></a>
       </div>
     </div>
   </section>
@@ -63,26 +63,26 @@
     <div class="grid-container">
       <div class="row text-row">
         <div class="col-6">
-          <h1>What is Utrecht Talking About?</h1>
+          <h1><%= I18n.t(:live_responses) %></h1>
         </div>
       </div>
       <div class="conversation-demo">
         <div class="bubble question" id="question-bubble">
           <div class="bubble-inner">
-            <h4>Question</h4>
+            <h4><%= I18n.t(:live_responses_question) %></h4>
             <div class="text">Insert question here.</div>
           </div>
         </div>
         <div class="bubble answer" id="answer-bubble">
           <div class="bubble-inner">
-            <h4>Answer</h4>
+            <h4><%= I18n.t(:live_responses_answer) %></h4>
             <div class="text">Insert answer here.</div>
           </div>
           <div class="object-ref">Object #???</div>
         </div>
         <div class="buttons">
-          <button class="new-question hidden" id="new-question-button">Next Question</button>
-          <button class="next-answer hidden" id="next-answer-button">Next Answer</button>
+          <button class="new-question hidden" id="new-question-button"><%= I18n.t(:live_responses_next_question) %></button>
+          <button class="next-answer hidden" id="next-answer-button"><%= I18n.t(:live_responses_next_answer) %></button>
         </div>
       </div>
     </div>
@@ -163,12 +163,12 @@
   <div class="grid-container">
     <div class="row">
       <div class="col-3 shift-3">
-        <a href="http://hellolamppost.co.uk/" target="_blank"><img src="/images/hello-lamp-post-logo.png">
-        </div>
-        <div class="col-3">
-          <a href="http://raumutrecht.nl/" target="_blank"><img src="/images/raum-logo.png"></a>
-        </div>
+        <a href="http://hellolamppost.co.uk/" target="_blank"><img src="/images/hello-lamp-post-logo.png"></a>
+      </div>
+      <div class="col-3">
+        <a href="http://raumutrecht.nl/" target="_blank"><img src="/images/raum-logo.png"></a>
       </div>
     </div>
-  </section>
+  </div>
+</section>
 </article>
