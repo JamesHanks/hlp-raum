@@ -1,5 +1,6 @@
-
 var ConversationDemo = function() {
+
+  console.log('yo!');
 
   if ('classList' in document.createElement('div')) {
 
@@ -105,12 +106,12 @@ ConversationDemo.prototype.updateAnswer = function(answer) {
 
   var object_link = this.answer_element.getElementsByClassName('object-ref')[0]
   var answer_element_text = this.answer_element.getElementsByClassName('text')[0]
-  
+
   answer_element_text.textContent = answer.text;
-  if (answer.street_object.name) { 
-    object_link.textContent = answer.street_object.name.en + ' #' + answer.street_object.code 
-  } else { 
-    object_link.textcontent = answer.street_object.type + ' #' + answer.street_object.code; 
+  if (answer.street_object.name) {
+    object_link.textContent = answer.street_object.name.en + ' #' + answer.street_object.code
+  } else {
+    object_link.textcontent = answer.street_object.type + ' #' + answer.street_object.code;
   }
 
 }
