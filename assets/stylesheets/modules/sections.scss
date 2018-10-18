@@ -242,7 +242,6 @@
     padding: 0;
   }
 }
-
 .line {
   margin: 4% 0 2.5%;
     hr {
@@ -482,8 +481,8 @@
 	}
 
 	@include mq("small", "max-width") {
-		height: 600px;
-		max-height: 850px;
+		height: 100vh;
+		max-height: 540px;
 		padding-top: 25px;
 		margin-top: 0;
 
@@ -744,6 +743,7 @@
 	display: block;
 	overflow: hidden;
 	position: relative;
+  background: #1d1d1d;
 
   .left-block {
     position: absolute;
@@ -754,7 +754,7 @@
   }
 
 	img {
-		width: 132%;
+		width: 1000px;
     left: 0;
     bottom: 0;
 		height: auto;
@@ -803,39 +803,39 @@
 	.right-block {
 		position: absolute;
 		right: 0;
-		background: #1d1d1d;
 		width: 40%;
 		float: right;
 		height: 100%;
 	}
 
 	@include mq("medium", "max-width") {
-		.right-block {
-      width: 100%;
-      height: auto;
-      position: relative;
-		}
+    display: block;
+    position: relative;
+    height: 850px;
+
     .left-block {
-      width: auto;
-      float: none;
-      height: 400px;
+      position: relative;
+      width: 100%;
+      overflow: hidden;
+      max-height: 500px;
     }
 
+    .right-block {
+    display: none;
+    }
 
 		img {
-			top: 0;
+      width: 100%;
+			top: -10%;
 			bottom: auto;
 			position: relative;
 		}
 
-		h5 {
-			margin-bottom: 40px;
-		}
-
 		.col-6 {
 			background: none;
-			padding: 50px 0;
-			width: 100%;
+      padding-top: 20px;
+      width: 100%;
+      padding-left: 2%;
 		}
 	}
 
@@ -843,6 +843,17 @@
 		.col-6 {
 			padding-top: 100px;
 			padding-bottom: 100px;
+		}
+	}
+
+  @include mq("super-small", "max-width") {
+  height: 730px;
+    .left-block {
+    height: 250px;
+    }
+		.col-6 {
+			padding:2%;
+      margin: 16% 0;
 		}
 	}
 }
@@ -855,6 +866,7 @@
   display: block;
   overflow: hidden;
   position: relative;
+  background: #1d1d1d;
 
   .col-6 {
     background: #1d1d1d;
@@ -868,7 +880,6 @@
   .left-block {
     position: absolute;
     left: 0;
-    background: #1d1d1d;
     width: 40%;
     float: left;
     height: 100%;
@@ -882,7 +893,6 @@
   }
   .col-9 {
     margin: 0 auto;
-    align: center;
     box-sizing: border-box;
     @include calc(width, "90% - 1px");
     @include calc(padding-left, "15.33% + 1px");
@@ -912,6 +922,39 @@
       text-decoration: none;
     }
   }
+
+  @include mq("medium", "max-width") {
+    display: block;
+    position: relative;
+      .left-block {
+        display: none;
+      }
+      .rightinfo {
+      width: 100%;
+      height: 300px;
+      }
+      .col-6 {
+        width:100%;
+        background: none;
+        position: relative;
+        padding: 3%;
+        margin: 4.5% 0;
+
+        p {
+        margin-bottom: 4%;
+        }
+      }
+      .col-9 {
+        padding: 3%;
+        margin: 6.5% 0;;
+        width: 100%;
+      }
+  }
+  @include mq("extra-small", "max-width") {
+  .col-6 {
+    margin: 9.5% 0;
+  }
+}
 }
 
 //how to play //////

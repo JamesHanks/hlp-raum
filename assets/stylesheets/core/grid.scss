@@ -98,8 +98,8 @@ $grid-spacing:2%;
   //@include calc(width, "66.64% - 10px");
 
   @include mq("small", "max-width") {
-    margin-right: 20px;
-    @include calc(width, "66.64% - 8px");
+    //margin-right: 20px;
+    @include calc(width, "88% - 8px");
   }
 }
 
