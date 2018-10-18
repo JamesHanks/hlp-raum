@@ -4,12 +4,13 @@ en:
   hello_astana: "Hello Utrecht"
   home_title: "Hello Utrecht"
 
-  how_it_works_link: "How It Works"
+  how_it_works_link: "Find Out Below"
   information_link: "Information"
+  download_data: "Download Dataset"
   contact_link: "Contact"
-  
-  description: "Utrecht's street objects are coming to life and they want to talk to you!"
-  opening_line: "Live from August 12 to October 8 2018."
+
+  description: "Utrechts street furniture has been waking up and chatting to its citizens."
+  opening_line: "What did they have to say?"
 
   pick_an_object: "1. Choose an Object"
   pick_an_object_text: "Look out for a street object with a yellow coded sticker on it"
@@ -28,7 +29,7 @@ en:
 
   information: "About Hello Lamp Post"
   information_title: "Have you ever wondered what it would be like to talk to the city that you live in?"
-  information_text: "Around the world, cities have been waking up and talking to their residents (Japan, Singapore, UK, Kazakhstan, France and the USA). Now for the first time ever, Utrecht's street furniture is waking up to talk to you!"
+  information_text: "The citizens of Utrecht were asked to speak to their city, and were delighted to discover that it wanted to talk back to them. By humanising the built environment in the city of Utrecht, Hallo Lantaarnpaal Utrecht discovered the hidden voices of Utrecht."
   infomation_text_2: "Objects are curious about the world they find themselves in and want to ask you questions. They want to know about the local area; the people’s memories and favorite things; what they believe in and what they care about and much, much more."
   information_cta_1: "Show More"
   information_cta_2: "Show Less"
@@ -39,18 +40,26 @@ en:
   more_information_text_3: "Hello Utrecht encourages people to look at the city with fresh eyes and engage with systems we often take for granted – a chance for us to slow down, reflect and see the city as a playground."
   more_information_text_4: "The interactions takes the form of a conversation. The objects are curious about the world they find themselves in and want to ask questions about it. The responses they receive are then shared with other players meaning an object understands the personality and people of the local area."
   more_information_text_5: "Conversations await in Utrecht, get chatting with the street landmarks now through to October 8. See if you can find them all!"
-  
+
+  dataset_1: "The data we collected from the city of Utrecht is not ours to sell to the highest bidder, just like cities which we live in should not be controlled by the 1% with power, money and influence."
+  dataset_2: "By giving away the data we’ve collected for free, we challenge Utrecht citizens, but especially Utrecht policy makers, planners designers and creatives to use the data for the benefit of the citizens who provided it."
+  dataset_3: "Download the dataset here!"
+
+
   contact_us: "About Us"
   contact_us_title: "About Hello Utrecht"
   contact_us_text_1: "Hello Utrecht will run from the 12th August to the 8th October 2018 in partnership with Raum."
   contact_us_text_2: "Hello Lamp Post was built by PAN Studio and was first commissioned for Watershed’s Playable City Award 2013 which ran for 8 weeks in Bristol."
   contact_us_text_3: "If you have any questions about the project you can get in touch with us using the link below."
   contact_us_text_4: "Find us on:"
+  contact_us_text_5: "From August 12th - October 8th, 845 participants had 1184 conversations, sending 2833 messages to street furniture, lamp posts, fountains and trees."
+  contact_us_text_6: "The responses collected were collected from participation in Hallo Lantaarnpaal Utrecht does not include mobile numbers, and is not personal data in law as this data does not directly or indirectly reveal your identity. "
   contact_us_cta: "Get In Touch"
-  
-  object_1: "Text: \"Hello Rabbit #RAUM1\" <br> To: +31 97 00 44 99 0 99"
-  object_2: "Text: \"Hello House #RAUM5\" <br> To: +31 97 00 44 99 0 99"
-  object_3: "Text: \"Hello Vredenburg Standbeeld #Tivoli\" <br> To: +31 97 00 44 99 0 99"
-  object_4: "Text: \"Hello Mountain #RAUM2\" <br> To: +31 97 00 44 99 0 99"
+
+  object_1: "Hello Rabbit"
+  object_2: "Hello House"
+  object_3: "Hello Vredenburg Standbeeld"
+  object_4: "Hello Mountain"
+  object_5: "Hello Bollendak"
 
   to_top: "To Top"

@@ -4,12 +4,13 @@ nl:
   hello_astana: "Hallo Lantaarnpaal Utrecht"
   home_title: "Hallo Lantaarnpaal Utrecht"
 
-  how_it_works_link: "Hoe werkt het?"
+  how_it_works_link: "Bekijk Het Filmpje"
   information_link: "Informatie"
+  download_data: "Download Dataset"
   contact_link: "Contact"
 
-  description: "Utrechts straatmeubilair komt tot leven... en wil met jou in gesprek!"
-  opening_line: "Live van 12 augustus tot 8 oktober 2018."
+  description: "Utrechts straatmeubilair kwam tot leven en ging in gesprek met bewoners."
+  opening_line: "Wat hadden ze te vertellen?"
 
   pick_an_object: "1. Kies een object"
   pick_an_object_text: "Vind een straatobject met een gele sticker met code."
@@ -28,7 +29,7 @@ nl:
 
   information: "Over Hallo Lantaarnpaal"
   information_title: "Heb je je ooit afgevraagd hoe het zou zijn om te kunnen praten met de stad waarin je woont?"
-  information_text: "Overal ter wereld komen steden tot leven. Ze gaan in gesprek met hun bewoners (Japan, Singapore, Verenigd Koninkrijk, Kazachstan, Frankrijk en Verenigde Staten). Dit is de eerste keer dat ook in Utrecht het straatmeubilair ontwaakt... om met jou te praten!"
+  information_text: " Inwoners van Utrecht werden uitgenodigd tot een gesprek met hun stad... en waren aangenaam verrast dat hun stad ook terug praatte. Door een menselijk karakter te geven aan de stedelijke omgeving is Hallo Lantaarnpaal erin geslaagd om de verborgen stemgeluiden van de stad hoorbaar te maken."
   infomation_text_2: "Straatobjecten zijn nieuwsgierig naar hun omgeving en willen jou vragen stellen. Ze willen de buurt leren kennen, de herinneringen en favoriete plekken van de bewoners; waar geloven de mensen in, wat vinden ze belangrijk, en nog veel, veel meer."
   information_cta_1: "Meer"
   information_cta_2: "Minder"
@@ -40,17 +41,25 @@ nl:
   more_information_text_4: "Je raakt in gesprek met een object. Objecten zijn nieuwsgierig naar hun omgeving en willen jou vragen stellen. Antwoorden worden gedeeld met andere deelnemers zodat het object als het ware de persoonlijkheid van de stad en haar bewoners leert kennen."
   more_information_text_5: "Ga nu het gesprek aan met het straatmeubilair in Utrecht, tot en met 8 oktober. Probeer alle objecten te vinden!"
 
+  dataset_1: "De data die we verzameld hebben in Utrecht is niet bestemd voor de hoogste bieder… want de controle over onze steden hoort volgens Hello Lamp Post niet thuis in de handen van de machtige, rijke en invloedrijke 1% van de bevolking."
+  dataset_2: "Door de data gratis weg te geven willen wij burgers van Utrecht, maar vooral ook beleidsmakers, stadsplanologen en de creatieve sector uitdagen om de data zodanig te gebruiken dat zij burger ten goede komt."
+  dataset_3: "Download hier de dataset!"
+
+
   contact_us: "Over ons"
   contact_us_title: "Over Hallo Lantaarnpaal Utrecht"
   contact_us_text_1: "Hallo Lantaarnpaal Utrecht is live van 12 augustus tot 8 oktober 2018, in samenwerking met RAUM."
   contact_us_text_2: "Hallo Lantaarnpaal Utrecht is een creatie van PAN Studio. De allereerste versie was een 8 weken durend project in opdracht van Watershed’s Playable City Award 2013 in Bristol (Verenigd Koninkrijk)."
   contact_us_text_3: "Voor vragen over dit project kun je contact opnemen via onderstaande link."
   contact_us_text_4: "Vind ons op:"
+  contact_us_text_5: "In de periode van 12 augustus tot 8 oktober 2018 hebben 845 deelnemers door het sturen van 3002 SMS-berichten in totaal 1184 gesprekken gevoerd met straatmeubilair, lantaarnpalen, fonteinen en bomen."
+  contact_us_text_6: "Hallo Lantaarnpaal heeft geen mobiele telefoonnummers van deelnemers verzameld. De berichten van deelnemers worden juridisch niet als persoonlijke gegevens aangemerkt omdat ze geen directe of indirecte informatie bevatten over de identiteit van de deelnemer. Meer over het privacybeleid van Hello Lamp Post vind je hier. "
   contact_us_cta: "Contact"
 
-  object_1: "SMS: \"Hallo rabbit #RAUM1\" <br> Naar: +31 97 00 44 99 0 99"
-  object_2: "SMS: \"Hallo huis #RAUM5\" <br> Naar: +31 97 00 44 99 0 99"
-  object_3: "SMS: \"Hallo vredenburg standbeeld #Tivoli\" <br> Naar: +31 97 00 44 99 0 99"
-  object_4: "SMS: \"Hallo berg #RAUM2\" <br> Naar: +31 97 00 44 99 0 99"
+  object_1: "Hallo Rabbit"
+  object_2: "Hallo Huis"
+  object_3: "Hallo Vredenburg Standbeeld"
+  object_4: "Hallo Berg"
+  object_5: "Hallo Bollendak"
 
   to_top: "Naar begin"

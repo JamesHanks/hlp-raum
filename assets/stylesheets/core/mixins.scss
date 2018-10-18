@@ -16,7 +16,7 @@ $breakpoints: (
 
 $hover: all 0.3s ease-in-out;
 
-@mixin mq($size, $type: "min-width") { 
+@mixin mq($size, $type: "min-width") {
   @each $breakpoint in $breakpoints {
     @if ($size == nth($breakpoint, 1)) {
       @media ($type: nth($breakpoint, 2)) {

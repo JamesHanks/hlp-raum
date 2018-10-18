@@ -125,183 +125,227 @@ ConversationDemo.prototype.updateAnswer = function(answer) {
 <script src="/assets/javascripts/webtrends.min.js"></script>
 
 <article class="homepage">
-  <section class="hero">
-    <div class="grid-container">
-      <div class="row text-row">
-        <div class="col-6">
-          <h1><%= I18n.t(:description) %></h1>
-          <h2><%= I18n.t(:opening_line) %></h2>
+    <section class="hero">
+        <div class="grid-container">
+            <div class="row text-row">
+                <div class="col-6">
+                    <h1><%= I18n.t(:description) %></h1>
+                    <h2><%= I18n.t(:opening_line) %></h2>
+                </div>
+                <div class="row" align="center">
+                    <a class="js-scroll-down-button scroll-down-button"><%= I18n.t(:how_it_works_link) %></a>
+                </div>
+            </div>
         </div>
+    </section>
+
+
+    <section id="information" class="information">
+      <div class="left-block">
+        <img src="/images/girltexting.jpg">
       </div>
+            <div class="right-block"></div>
+                <div class="grid-container">
+                    <div class="col-6 right">
+                        <h1><%= I18n.t(:information_title) %></h1>
+                        <p><%= I18n.t(:information_text) %></p>
+                        <!--<a class="link-btn-one js-learn-more"><%= I18n.t(:information_cta_1) %></a>-->
+                    </div>
+                </div>
+    </section>
+
+
+    <section id="video" class="video">
       <div class="row">
-        <div class="shift-2 col-8">
-          <div class="image">
-            <iframe src="https://player.vimeo.com/video/283897384?color=ffd100&title=0&byline=0&portrait=0" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+          <div class="shift-2 col-8">
+              <div class="image">
+                  <iframe src="https://player.vimeo.com/video/295619918" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+              </div>
           </div>
-        </div>
       </div>
-      <div class="row" align="center">
-        <a class="js-scroll-down-button scroll-down-button"><%= I18n.t(:how_it_works_link) %></a>
-      </div>
-    </div>
-  </section>
-  <section id="how-it-works" class="process">
-    <div class="grid-container">
-      <div class="col-4">
-        <div class="process-item">
-          <div class="image-circle">
-            <img src="/images/process-1.svg">
-          </div>
-          <h4><%= I18n.t(:pick_an_object) %></h4>
-          <p><%= I18n.t(:pick_an_object_text) %></p>
-        </div>
-      </div>
-      <div class="col-4">
-        <div class="process-item">
-          <div class="image-circle">
-            <img src="/images/process-2.svg">
-          </div>
-          <h4><%= I18n.t(:say_hello) %></h4>
-          <p><%= I18n.t(:say_hello_text) %></p>
-        </div>
-      </div>
-      <div class="col-4">
-        <div class="process-item">
-          <div class="image-circle">
-            <img src="/images/process-3.svg">
-          </div>
-          <h4><%= I18n.t(:keep_talking) %></h4>
-          <p><%= I18n.t(:keep_talking_text) %></p>
-        </div>
-      </div>
-    </div>
-  </section>
+    </section>
 
-  <section class="hero message">
-    <div class="grid-container">
-      <div class="row text-row">
-        <div class="col-6">
-          <h1><%= I18n.t(:live_responses) %></h1>
-        </div>
-      </div>
-      <div class="conversation-demo">
-        <div class="bubble question" id="question-bubble">
-          <div class="bubble-inner">
-            <h4><%= I18n.t(:live_responses_question) %></h4>
-            <div class="text">Wat geeft betekenis aan jouw leven?</div>
+    <!--<section id="how-it-works" class="process">
+        <div class="grid-container">
+            <div class="col-4">
+                <div class="process-item">
+                    <div class="image-circle">
+                        <img src="/images/process-1.svg">
+                    </div>
+                    <h4><%= I18n.t(:pick_an_object) %></h4>
+                    <p><%= I18n.t(:pick_an_object_text) %></p>
+                </div>
+            </div>
+            <div class="col-4">
+                <div class="process-item">
+                    <div class="image-circle">
+                        <img src="/images/process-2.svg">
+                  </div>
+                  <h4><%= I18n.t(:say_hello) %></h4>
+                  <p><%= I18n.t(:say_hello_text) %></p>
+              </div>
           </div>
+          <div class="col-4">
+              <div class="process-item">
+                  <div class="image-circle">
+                      <img src="/images/process-3.svg">
+                  </div>
+                  <h4><%= I18n.t(:keep_talking) %></h4>
+                  <p><%= I18n.t(:keep_talking_text) %></p>
+              </div>
+            </div>
         </div>
-        <div class="bubble answer" id="answer-bubble">
-          <div class="bubble-inner">
-            <h4><%= I18n.t(:live_responses_answer) %></h4>
-            <div class="text">Hier in Utrecht!</div>
-          </div>
-          <div class="object-ref">Lantaarnpaal #CS3</div>
-        </div>
-        <div class="buttons">
-          <button class="new-question hidden" id="new-question-button"><%= I18n.t(:live_responses_next_question) %></button>
-          <button class="next-answer hidden" id="next-answer-button"><%= I18n.t(:live_responses_next_answer) %></button>
-        </div>
-      </div>
-    </div>
-  </section>
+    </section>-->
 
-  <section id="information" class="information">
-    <img src="/images/bg-how-it-works.jpg">
-    <div class="right-block"></div>
-    <div class="grid-container">
-      <div class="col-6 right">
-        <h1><%= I18n.t(:information_title) %></h1>
-        <p><%= I18n.t(:information_text) %></p>
-        <p><%= I18n.t(:infomation_text_2) %></p>
-        <a class="link-btn-one js-learn-more"><%= I18n.t(:information_cta_1) %></a>
-      </div>
-    </div>
-  </section>
-  <section class="how-to-play">
-    <div class="grid-container">
-      <div class="col-6">
-        <h1><%= I18n.t(:more_information) %></h1>
-        <p><%= I18n.t(:more_information_text_1) %></p>
-        <p><%= I18n.t(:more_information_text_2) %></p>
-        <p><%= I18n.t(:more_information_text_3) %></p>
-      </div>
-      <div class="col-6 pushed-column">
-        <p><%= I18n.t(:more_information_text_4) %></p>
-        <p><%= I18n.t(:more_information_text_5) %></p>
-      </div>
-    </div>
-  </section>
-  <section id="contact" class="contact">
-    <div class="grid-container">
-      <div class="col-6">
-        <h1><%= I18n.t(:contact_us_title) %></h1>
-        <p><%= I18n.t(:contact_us_text_1) %></p>
-        <p><%= I18n.t(:contact_us_text_2) %></p>
-        <p><%= I18n.t(:contact_us_text_3) %></p>
-        <a class="link-btn-one" href="mailto:contact@panstudio.co.uk?Subject=Hello%20Astana%20Enquiry"><%= I18n.t(:contact_us_cta) %></a>
-        <div class="logo-container">
-          <p><%= I18n.t(:contact_us_text_4) %></p>
-          <a href="https://twitter.com/hellolamppost_" target="_blank"><img src="/images/twitter.svg"></a>
-          <a href="https://www.facebook.com/Hello-Lamp-Post-171475660169073/" target="_blank"><img src="/images/facebook.svg"></a>
-          <a href="https://instagram.com/hellolamppost_" target="_blank"><img src="/images/instagram.svg"></a>
-        </div>
-      </div>
-      <div class="col-4">
-        <div class="swiper-controls">
-          <div class="swiper-button-next"></div>
-          <div class="swiper-button-prev"></div>
-        </div>
-        <div class="swiper-container">
-          <div class="swiper-wrapper">
-           <div class="swiper-slide">
-            <div class="image-circle"><img src="/images/rabbit.png"></div>
-            <h3><%= I18n.t(:object_1) %></h3>
-          </div>
-          <div class="swiper-slide">
-            <div class="image-circle"><img src="/images/house.png"></div>
-            <h3><%= I18n.t(:object_2) %></h3>
-          </div>
-          <div class="swiper-slide">
-            <div class="image-circle"><img src="/images/statue.png"></div>
-            <h3><%= I18n.t(:object_3) %></h3>
-          </div>
-          <div class="swiper-slide">
-            <div class="image-circle"><img src="/images/mountain.png"></div>
-            <h3><%= I18n.t(:object_4) %></h3>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
-</section>
 
-<section class="supporters">
-  <div class="grid-container">
-    <div class="row">
-      <div class="col-3 shift-1">
-        <img src="/images/hello-lamp-post-logo.png">
-      </div>
-      <div class="col-3">
-        <img src="/images/raum-logo.png">
-      </div>
-      <div class="col-3">
-        <img src="/images/geemente-logo.png">
-      </div>
-      <div class="col-3">
-        <img src="/images/lrc-logo.png">
-      </div>
-      <div class="col-3">
-        <img src="/images/tivoli-logo.png">
-      </div>
-      <div class="col-3">
-        <img src="/images/hoog-logo.png">
-      </div>
-      <div class="col-3">
-        <img src="/images/centraal-logo.png">
-      </div>
+    <section class="hero message">
+        <div class="grid-container">
+            <div class="row text-row">
+                <div class="col-6">
+                    <h1><%= I18n.t(:live_responses) %></h1>
+                </div>
+            </div>
+
+            <div class="conversation-demo">
+                <div class="bubble question" id="question-bubble">
+                    <div class="bubble-inner">
+                        <h4><%= I18n.t(:live_responses_question) %></h4>
+                        <div class="text">Wat geeft betekenis aan jouw leven?</div>
+                    </div>
+                </div>
+
+            <div class="bubble answer" id="answer-bubble">
+                <div class="bubble-inner">
+                    <h4><%= I18n.t(:live_responses_answer) %></h4>
+                    <div class="text">Hier in Utrecht!</div>
+                </div>
+                <div class="object-ref">Lantaarnpaal #CS3</div>
+            </div>
+
+            <div class="buttons">
+                <button class="new-question hidden" id="new-question-button"><%= I18n.t(:live_responses_next_question) %></button>
+                <button class="next-answer hidden" id="next-answer-button"><%= I18n.t(:live_responses_next_answer) %></button>
+            </div>
+          </div>
+        </div>
+
+    </section>
+
+    <div class="line">
+      <hr align="center" width="80%">
     </div>
-  </div>
-</section>
+
+    <section id="data" class="data">
+                <div class="rightinfo">
+                  <div class="grid-container">
+                      <div class="col-9">
+                          <p><%= I18n.t(:dataset_1) %></p>
+                      </div>
+                  </div>
+                </div>
+
+                <div class="left-block"></div>
+                    <div class="grid-container">
+                        <div class="col-6 left link">
+                            <p><%= I18n.t(:dataset_2) %></p>
+                            <a href="https://drive.google.com/drive/u/1/folders/1SsiohPl36o1bsDA5lsU8lLGNLeCVEt_Q">
+                              <%= I18n.t(:dataset_3) %>
+                            </a>
+                            <!--<a class="link-btn-one js-learn-more"><%= I18n.t(:information_cta_1) %></a>-->
+                       </div>
+                    </div>
+    </section>
+    <!--<section class="how-to-play">
+        <div class="grid-container">
+            <div class="col-6">
+                <h1><%= I18n.t(:more_information) %></h1>
+                <p><%= I18n.t(:more_information_text_1) %></p>
+                <p><%= I18n.t(:more_information_text_2) %></p>
+                <p><%= I18n.t(:more_information_text_3) %></p>
+            </div>
+            <div class="col-6 pushed-column">
+                <p><%= I18n.t(:more_information_text_4) %></p>
+                <p><%= I18n.t(:more_information_text_5) %></p>
+            </div>
+        </div>
+    </section>-->
+
+
+    <section id="contact" class="contact">
+        <div class="grid-container">
+            <div class="col-6">
+              <h1><%= I18n.t(:contact_us_title) %></h1>
+              <p><%= I18n.t(:contact_us_text_5) %></p>
+              <p><%= I18n.t(:contact_us_text_6) %></p>
+                <a class="link-btn-one" href="mailto:contact@panstudio.co.uk?Subject=Hello%20Astana%20Enquiry"><%= I18n.t(:contact_us_cta) %></a>
+                  <div class="logo-container">
+                        <p><%= I18n.t(:contact_us_text_4) %></p>
+                        <a href="https://twitter.com/hellolamppost_" target="_blank"><img src="/images/twitter.svg"></a>
+                        <a href="https://www.facebook.com/Hello-Lamp-Post-171475660169073/" target="_blank"><img src="/images/facebook.svg"></a>
+                        <a href="https://instagram.com/hellolamppost_" target="_blank"><img src="/images/instagram.svg"></a>
+                  </div>
+            </div>
+
+
+              <div class="col-4">
+                  <div class="swiper-controls">
+                      <div class="swiper-button-next"></div>
+                      <div class="swiper-button-prev"></div>
+                  </div>
+
+              <div class="swiper-container">
+                  <div class="swiper-wrapper">
+                      <div class="swiper-slide">
+                          <div class="image-circle"><img src="/images/rabbit.png"></div>
+                              <h3><%= I18n.t(:object_1) %></h3>
+                      </div>
+                      <div class="swiper-slide">
+                          <div class="image-circle"><img src="/images/house.png"></div>
+                          <h3><%= I18n.t(:object_2) %></h3>
+                      </div>
+                      <div class="swiper-slide">
+                          <div class="image-circle"><img src="/images/statue.png"></div>
+                          <h3><%= I18n.t(:object_3) %></h3>
+                      </div>
+                      <div class="swiper-slide">
+                          <div class="image-circle"><img src="/images/mountain.png"></div>
+                          <h3><%= I18n.t(:object_4) %></h3>
+                      </div>
+                      <div class="swiper-slide">
+                          <div class="image-circle"><img src="/images/bollendak.png"></div>
+                          <h3><%= I18n.t(:object_5) %></h3>
+                      </div>
+                </div>
+             </div>
+             </div>
+        </div>
+    </section>
+
+    <section class="supporters">
+      <div class="grid-container">
+        <div class="row">
+          <div class="col-3 shift-1">
+            <img src="/images/hello-lamp-post-logo.png">
+          </div>
+          <div class="col-3">
+            <img src="/images/raum-logo.png">
+          </div>
+          <div class="col-3">
+            <img src="/images/geemente-logo.png">
+          </div>
+          <div class="col-3">
+            <img src="/images/lrc-logo.png">
+          </div>
+          <div class="col-3">
+            <img src="/images/tivoli-logo.png">
+          </div>
+          <div class="col-3">
+            <img src="/images/hoog-logo.png">
+          </div>
+          <div class="col-3">
+            <img src="/images/centraal-logo.png">
+          </div>
+        </div>
+      </div>
+    </section>
 </article>

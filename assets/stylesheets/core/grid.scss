@@ -89,9 +89,13 @@ $grid-spacing:2%;
 
 .col-8 {
   position: relative;
-  margin-right: 30px;
-  float: left;
-  @include calc(width, "66.64% - 10px");
+  //margin-right: 30px;
+  padding: 1% 0;
+  margin:0 auto;
+  //float: left;
+  width: 88%;
+  //@include calc(width, "88% - 10px");
+  //@include calc(width, "66.64% - 10px");
 
   @include mq("small", "max-width") {
     margin-right: 20px;
@@ -153,7 +157,7 @@ $grid-spacing:2%;
 
   @include mq("small", "max-width") {
     @include calc(width, "50% - 18px");
-    
+
     &:nth-child(2) {
       margin-right: 0px;
     }
@@ -163,9 +167,9 @@ $grid-spacing:2%;
   }
 }
 
-.shift-2 {
-  @include calc(margin-left, "16.6667% + 4px");
-}
+//.shift-2 {
+  //@include calc(margin-left, "6% + 4px");
+//}
 
 .col-2 {
   margin-right: 24px;

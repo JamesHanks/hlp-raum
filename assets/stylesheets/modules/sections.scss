@@ -3,81 +3,28 @@
 // 	Sections
 // =================================================================
 
-.pop-up {
-	display: block;
-	width: 320px;
-	background: $colorThree;
-	position: absolute;
-	top: 0;
-	right: 0;
-	padding: 18px 0px 18px 0px;
-	box-sizing: border-box;
-	height: auto;
-	z-index: 1000;
-
-	p {
-		color: $colorWhite;
-		padding: 0;
-		padding-right: 20px;
-		font-size: 14px;
-	}
-
-	p:after {
-		content: "";
-		display: block;
-		position: absolute;
-		top: 20px;
-		right: 0px;
-		width: 18px;
-		height: 18px;
-		background-image: url('/images/arrow-pink.svg');
-		background-size: 100% 100%;
-		background-position: 0 0;
-	}
-
-	@include mq("small", "max-width") {
-		width: 100%;
-		position: relative;
-		padding: 15px 0;
-
-		p {
-			font-size: 12px;
-			width: 92%;
-		}
-
-		p:after {
-			top: 32%;
-			right: 0px;
-		}
-	}
-
-	@include mq("nano", "max-width") {
-		p {
-			font-size: 12px;
-			width: 85%;
-		}
-	}
-}
-
+//Top Section
 .headerdesktop {
 	display:none;
 }
 
 .hero {
 	width: 100%;
-	//height: 120vh;
-	//max-height: 848px;
+	height: 150vh;
+	max-height: 735px;
 	margin: 0;
-	padding: 90px 0 60px 0;
+	padding: 90px 0 30px 0;
 	background: $colorOne;
 	position: relative;
 	overflow: hidden;
 	text-align: center;
 
 	.col-6 {
-		float: none;
-		display: block;
-		margin: auto;
+    @include calc(width, "80% - 15px");
+    float: none;
+    display: block;
+    margin:0 auto;
+    margin-top: 12%;
 	}
 
 	h2 {
@@ -89,6 +36,7 @@
 	}
 
 	h1 {
+    font-size: 4em;
 		text-align: center;
 		line-height: 1.25;
 		margin-bottom: 25px;
@@ -144,7 +92,6 @@
 		background: $colorTwo;
 		padding: 16px 20px 16px 20px;
 		@include border-radius(4px);
-		display: none;
 		max-width: 180px;
 		text-align: left;
 
@@ -190,11 +137,11 @@
 	}
 
 	@include mq("small", "max-width") {
-		height: auto;
+		height: 150vh;
 		overflow: hidden;
 		margin-top: 68px;
-		max-height: auto;
-		padding: 20px 0 50px 0;
+		max-height: 535px;
+		padding: 190px 0 50px 0;
 
 		.col-6 {
 			width: 100%;
@@ -203,15 +150,16 @@
 		.scroll-down-button {
 			bottom: 30px;
 			display: block;
+      margin: 13%;
 		}
 
 		h1 {
-			font-size: 1.4em;
+			font-size: 2.5em;
 			margin-bottom: 15px;
 		}
 
 		h2 {
-			font-size: 1em;
+			font-size: 1.3em;
 			margin-bottom: 0;
 		}
 
@@ -234,7 +182,7 @@
 	}
 
 	@include mq("super-small", "max-width") {
-		padding: 20px 0 25px 0;
+		padding: 90px 0 25px 0;
 
 		.scroll-down-button {
 			bottom: 50px;
@@ -253,10 +201,63 @@
 	}
 }
 
+
+.hero.video {
+	height: 75vh;
+	max-height: 650px;
+
+	img.bg-image {
+		width: 200%;
+	}
+
+	.col-6-fake {
+		top: 55%;
+	}
+
+	.image-bottom {
+		top: 0;
+		transform: rotate(180deg);
+		bottom: auto;
+	}
+
+	@include mq("small", "max-width") {
+		height: 50vh;
+
+		.col-6-fake {
+			top: 55%;
+		}
+	}
+}
+
+
+//The video
+.video {
+  background: $colorTwo;
+  width:100%;
+  margin:0;
+  padding: 0;
+
+  .row {
+    margin: 0;
+    padding: 0;
+  }
+}
+
+.line {
+  margin: 4% 0 2.5%;
+    hr {
+      opacity: 0.7;
+      border: 0;
+      height: 1px;
+      background-image: linear-gradient(to right, #ccc, $colorWhite, #ccc);
+    }
+}
+
+//Animated Ticker
 .hero.message {
-	height: 90vh;
-	max-height: 500px;
-	padding-top: 50px;
+	height: 100vh;
+	max-height: 480px;
+  margin: 0;
 
 	.text-row {
 		position: relative;
@@ -266,11 +267,10 @@
 			display: block;
 			float: none;
 			margin: 0 auto;
-			color: $colorWhite;
 		}
 
 		.col-6 h1 {
-			font-size: 1.45em;
+			font-size: 2em;
 		}
 	}
 
@@ -567,33 +567,68 @@
 	}
 }
 
-.hero.video {
-	height: 75vh;
-	max-height: 650px;
 
-	img.bg-image {
-		width: 200%;
+
+//Show more Pop Up//////
+.pop-up {
+	display: block;
+	width: 320px;
+	background: $colorThree;
+	position: absolute;
+	top: 0;
+	right: 0;
+	padding: 18px 0px 18px 0px;
+	box-sizing: border-box;
+	height: auto;
+	z-index: 1000;
+
+	p {
+		color: $colorWhite;
+		padding: 0;
+		padding-right: 20px;
+		font-size: 14px;
 	}
 
-	.col-6-fake {
-		top: 55%;
-	}
-
-	.image-bottom {
-		top: 0;
-		transform: rotate(180deg);
-		bottom: auto;
+	p:after {
+		content: "";
+		display: block;
+		position: absolute;
+		top: 20px;
+		right: 0px;
+		width: 18px;
+		height: 18px;
+		background-image: url('/images/arrow-pink.svg');
+		background-size: 100% 100%;
+		background-position: 0 0;
 	}
 
 	@include mq("small", "max-width") {
-		height: 50vh;
+		width: 100%;
+		position: relative;
+		padding: 15px 0;
 
-		.col-6-fake {
-			top: 55%;
+		p {
+			font-size: 12px;
+			width: 92%;
+		}
+
+		p:after {
+			top: 32%;
+			right: 0px;
+		}
+	}
+
+	@include mq("nano", "max-width") {
+		p {
+			font-size: 12px;
+			width: 85%;
 		}
 	}
 }
 
+
+
+//Stick figure process //////
 .process {
 	background: lighten($colorTwo, 5%);
 	height: auto;
@@ -700,33 +735,41 @@
 	}
 }
 
+
+//Information ///////
 .information {
 	width: 100%;
+  height:650px;
 	clear: both;
 	display: block;
 	overflow: hidden;
 	position: relative;
-	background: $colorTwo;
+
+  .left-block {
+    position: absolute;
+    left: 0;
+    width: 50%;
+    float: left;
+    height: 100%;
+  }
 
 	img {
-		width: 100%;
-		position: absolute;
-		bottom: 0;
-		left: 0;
+		width: 132%;
+    left: 0;
+    bottom: 0;
 		height: auto;
 	}
 
 	.col-6 {
-		background: $colorTwo;
+		background: #1d1d1d;
 		float: right;
 		box-sizing: border-box;
-		@include calc(padding-left, "8.33% + 2px");
-		padding-top: 80px;
-		padding-bottom: 80px;
-	}
+    @include calc(width, "50% - 1px");
+		@include calc(padding-left, "12.33% + 1px");
+		margin-top: 7%;
+    margin-right: 3px;
+    padding-left: 5%;
 
-	h5 {
-		margin-bottom: 50px;
 	}
 
 	h1 {
@@ -760,7 +803,7 @@
 	.right-block {
 		position: absolute;
 		right: 0;
-		background: $colorTwo;
+		background: #1d1d1d;
 		width: 40%;
 		float: right;
 		height: 100%;
@@ -768,8 +811,16 @@
 
 	@include mq("medium", "max-width") {
 		.right-block {
-			display: none;
+      width: 100%;
+      height: auto;
+      position: relative;
 		}
+    .left-block {
+      width: auto;
+      float: none;
+      height: 400px;
+    }
+
 
 		img {
 			top: 0;
@@ -796,6 +847,74 @@
 	}
 }
 
+//Dataset///
+.data {
+  width: 100%;
+  height:650px;
+  clear: both;
+  display: block;
+  overflow: hidden;
+  position: relative;
+
+  .col-6 {
+    background: #1d1d1d;
+    box-sizing: border-box;
+    @include calc(width, "45% - 1px");
+    position: absolute;
+    margin: 13% 0 0 0;
+    padding: 3% 1%;
+
+  }
+  .left-block {
+    position: absolute;
+    left: 0;
+    background: #1d1d1d;
+    width: 40%;
+    float: left;
+    height: 100%;
+  }
+
+  .rightinfo {
+    float: right;
+    width: 60%;
+    height: 100%;
+    background: $colorWhite;
+  }
+  .col-9 {
+    margin: 0 auto;
+    align: center;
+    box-sizing: border-box;
+    @include calc(width, "90% - 1px");
+    @include calc(padding-left, "15.33% + 1px");
+    margin-top: 25%;
+
+    p{
+    font-weight: bold;
+    font-size: 1.4em;
+    color: $colorTwo;
+    }
+  }
+  .link {
+    p{
+      font-weight: bold;
+      opacity: 1;
+      color: $colorThree;
+    }
+    a{
+      font-size: 1.9em;
+      line-height: 1.4;
+      font-family: "Gotham-bold", sans-serif;
+      color: $colorThree;
+      text-decoration: underline;
+    }
+    a:hover {
+      color: $colorOne;
+      text-decoration: none;
+    }
+  }
+}
+
+//how to play //////
 .how-to-play {
 	width: 100%;
 	clear: both;
@@ -853,13 +972,14 @@
 	}
 }
 
+
+//Contact///////
 .contact {
 	width: 100%;
 	clear: both;
 	display: block;
 	overflow: hidden;
 	position: relative;
-	background: $colorOne;
 	padding: 60px 0 40px 0;
 
 	.col-6 {
@@ -903,7 +1023,7 @@
 				transition: $hover;
 				position: relative;
 				top: 0;
-				
+
 				&:hover{
 					top: -5px;
 				}
@@ -979,6 +1099,8 @@
 	}
 }
 
+
+//Supporters/////
 .supporters {
 	height: auto;
 	width: 100%;
