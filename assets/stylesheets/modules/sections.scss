@@ -141,7 +141,7 @@
 		overflow: hidden;
 		margin-top: 68px;
 		max-height: 535px;
-		padding: 190px 0 50px 0;
+		padding: 120px 0 50px 0;
 
 		.col-6 {
 			width: 100%;
@@ -182,7 +182,7 @@
 	}
 
 	@include mq("super-small", "max-width") {
-		padding: 90px 0 25px 0;
+		padding: 30px 0 25px 0;
 
 		.scroll-down-button {
 			bottom: 50px;
@@ -192,7 +192,7 @@
 	@include mq("nano", "max-width") {
 
 		h1 {
-			font-size: 1.2em;
+			font-size: 1.8em;
 		}
 
 		.col-6-fake {
@@ -242,6 +242,7 @@
     padding: 0;
   }
 }
+
 .line {
   margin: 4% 0 2.5%;
     hr {
@@ -255,7 +256,7 @@
 //Animated Ticker
 .hero.message {
 	height: 100vh;
-	max-height: 480px;
+	max-height: 540px;
   margin: 0;
 
 	.text-row {
@@ -482,9 +483,10 @@
 
 	@include mq("small", "max-width") {
 		height: 100vh;
-		max-height: 540px;
+		max-height: 596px;
 		padding-top: 25px;
 		margin-top: 0;
+    font-size: 1.4em;
 
 		img.bg-image {
 			position: absolute;
@@ -564,6 +566,16 @@
 			top: 35px;
 		}
 	}
+
+  @include mq("super-small", "max-width") {
+      font-size: 1.4em;
+      padding-top: 6px;
+      max-height: 650px;
+
+      button{
+  		  font-size: .8em;
+  		}
+  }
 }
 
 
@@ -764,11 +776,12 @@
 		background: #1d1d1d;
 		float: right;
 		box-sizing: border-box;
-    @include calc(width, "50% - 1px");
-		@include calc(padding-left, "12.33% + 1px");
-		margin-top: 7%;
-    margin-right: 3px;
-    padding-left: 5%;
+    width: 50%;
+    //@include calc(width, "50% - 1px");
+    padding: 5%;
+		//@include calc(padding-left, "12.33% + 1px");
+		margin-top: 6%;
+    //padding-left: 5%;
 
 	}
 
@@ -811,13 +824,13 @@
 	@include mq("medium", "max-width") {
     display: block;
     position: relative;
-    height: 850px;
+    height: 940px;
 
     .left-block {
       position: relative;
       width: 100%;
       overflow: hidden;
-      max-height: 500px;
+      max-height: 570px;
     }
 
     .right-block {
@@ -825,17 +838,16 @@
     }
 
 		img {
-      width: 100%;
-			top: -10%;
+      width: 120%;
+			top:0;
 			bottom: auto;
 			position: relative;
 		}
 
 		.col-6 {
 			background: none;
-      padding-top: 20px;
+      margin: 20px;
       width: 100%;
-      padding-left: 2%;
 		}
 	}
 
@@ -846,15 +858,37 @@
 		}
 	}
 
-  @include mq("super-small", "max-width") {
-  height: 730px;
+  @include mq("extra-small", "max-width") {
+  height: 770px;
     .left-block {
-    height: 250px;
+      max-height: 510px;
+    }
+    .col-6 {
+      padding: 2%;
+      margin: 8% 0;
+    }
+  }
+
+  @include mq("small", "max-width") {
+    height: 930px;
+      .col-6 {
+        padding: 2%;
+        margin: 5% 0;
+      }
+  }
+  @include mq("super-small", "max-width") {
+  height: 780px;
+    .left-block {
+      max-height: 340px;
+      top:0;
     }
 		.col-6 {
-			padding:2%;
-      margin: 16% 0;
+    padding: 2%;
+      margin: 10% 0;
 		}
+    img {
+      width: 120%;
+    }
 	}
 }
 
@@ -950,11 +984,26 @@
         width: 100%;
       }
   }
+
   @include mq("extra-small", "max-width") {
   .col-6 {
     margin: 9.5% 0;
+    font-size: 1.1em;
   }
 }
+    @include mq("super-small", "max-width") {
+      .col-9 {
+        width: 100%;
+        margin: 10% 0;
+        padding: 0;
+      }
+      .col-9 p {
+        font-size: 1.2em;
+      }
+      .col-6 p {
+        font-size: 1.1em;
+      }
+    }
 }
 
 //how to play //////

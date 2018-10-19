@@ -97,9 +97,13 @@ $grid-spacing:2%;
   //@include calc(width, "88% - 10px");
   //@include calc(width, "66.64% - 10px");
 
-  @include mq("small", "max-width") {
+  @include mq("super-small", "max-width") {
     //margin-right: 20px;
-    @include calc(width, "88% - 8px");
+    @include calc(width, "100% - 8px");
+  }
+
+  @include mq("small", "max-width") {
+    @include calc(width, "100% - 8px");
   }
 }
 
