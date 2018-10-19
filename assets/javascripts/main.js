@@ -21,7 +21,7 @@ jQuery.fn.extend({
     }
 });
 
-// Lazy Load The Image 
+// Lazy Load The Image
 
 $(document).on('click', '.menu a', function(event){
     event.preventDefault();
@@ -31,7 +31,7 @@ $(document).on('click', '.menu a', function(event){
     }, 500);
 });
 
-// Lazy Load The Image 
+// Lazy Load The Image
 $("img.lazy").lazyload({
 	threshold : 500,
 	effect : "fadeIn"
@@ -46,7 +46,7 @@ $( ".js-to-top" ).on( "click", function() {
 
 $( ".js-scroll-down-button" ).on( "click", function() {
 	$('html, body').animate({
-    	scrollTop: $(".process").offset().top
+    	scrollTop: $(".information").offset().top
 	}, 600);
 	return false;
 });

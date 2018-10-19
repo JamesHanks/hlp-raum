@@ -79,27 +79,25 @@
 	}
 
 	.scroll-down-button {
-		padding-bottom: 20px;
-		text-align: center;
-		font-family: "Gotham-bold", sans-serif;
-		color: $colorOne;
-		width: 100%;
-		z-index: 10;
-		bottom: 100px;
+    padding: 16px 20px 16px 20px;
+    @include border-radius(4px);
+    background: $colorTwo;
+    color: $colorOne;
+    display: block;
+    width: 100%;
+    max-width:200px;
+    font-family: "Gotham-bold", sans-serif;
 		font-size: 1em;
-		overflow: visible;
+    border: 0;
+    transition: all 0.3s ease-in-out;
+		text-align: center;
+		bottom: 100px;
+    margin: 10%;
 
-		background: $colorTwo;
-		padding: 16px 20px 16px 20px;
-		@include border-radius(4px);
-		max-width: 180px;
-		text-align: left;
 
 		&:after {
 			content: "";
-			display: inline-block;
-			padding-top: -10px;
-			margin-left: 10px;
+			display: block;
 			width: 17px;
 			height: 17px;
 			background-image: url('/images/arrow-down.svg');
@@ -108,6 +106,8 @@
 			background-repeat: no-repeat;
 			float: right;
 			margin-left: 10px;
+      padding-top: -10px;
+      transition: all 0.3s ease-in-out;
 		}
 	}
 
@@ -118,11 +118,6 @@
 	@include mq("medium", "max-width") {
 		.col-4 {
 			width: 350px;
-		}
-
-		.scroll-down-button {
-			bottom: 60px;
-			display: block;
 		}
 
 		/*
@@ -145,12 +140,6 @@
 
 		.col-6 {
 			width: 100%;
-		}
-
-		.scroll-down-button {
-			bottom: 30px;
-			display: block;
-      margin: 13%;
 		}
 
 		h1 {
@@ -182,15 +171,15 @@
 	}
 
 	@include mq("super-small", "max-width") {
-		padding: 30px 0 25px 0;
+		padding: 0 0 25px 0;
 
-		.scroll-down-button {
-			bottom: 50px;
-		}
+    h1 {
+      font-size: 2.2em;
+    }
 	}
 
 	@include mq("nano", "max-width") {
-
+    padding: 0 0 25px 0;
 		h1 {
 			font-size: 1.8em;
 		}
@@ -877,13 +866,12 @@
       }
   }
   @include mq("super-small", "max-width") {
-  height: 780px;
+  height: 825px;
     .left-block {
-      max-height: 340px;
+      max-height: 260px;
       top:0;
     }
 		.col-6 {
-    padding: 2%;
       margin: 10% 0;
 		}
     img {
@@ -895,7 +883,7 @@
 //Dataset///
 .data {
   width: 100%;
-  height:650px;
+  height:100%;
   clear: both;
   display: block;
   overflow: hidden;
@@ -965,7 +953,7 @@
       }
       .rightinfo {
       width: 100%;
-      height: 300px;
+      height: 350px;
       }
       .col-6 {
         width:100%;
@@ -989,8 +977,8 @@
   .col-6 {
     margin: 9.5% 0;
     font-size: 1.1em;
+    }
   }
-}
     @include mq("super-small", "max-width") {
       .col-9 {
         width: 100%;

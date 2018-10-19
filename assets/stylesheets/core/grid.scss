@@ -99,7 +99,7 @@ $grid-spacing:2%;
 
   @include mq("super-small", "max-width") {
     //margin-right: 20px;
-    @include calc(width, "100% - 8px");
+    @include calc(width, "100% - 1px");
   }
 
   @include mq("small", "max-width") {
