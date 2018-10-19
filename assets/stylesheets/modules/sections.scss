@@ -918,7 +918,7 @@
     box-sizing: border-box;
     @include calc(width, "90% - 1px");
     @include calc(padding-left, "15.33% + 1px");
-    margin-top: 25%;
+    margin: 25% 0;
 
     p{
     font-weight: bold;
