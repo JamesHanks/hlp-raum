@@ -24,7 +24,7 @@
     float: none;
     display: block;
     margin:0 auto;
-    margin-top: 12%;
+    margin-top: 7%;
 	}
 
 	h2 {
@@ -36,7 +36,6 @@
 	}
 
 	h1 {
-    font-size: 4em;
 		text-align: center;
 		line-height: 1.25;
 		margin-bottom: 25px;
@@ -92,7 +91,7 @@
     transition: all 0.3s ease-in-out;
 		text-align: center;
 		bottom: 100px;
-    margin: 10%;
+    margin: 5%;
 
 
 		&:after {
@@ -116,6 +115,16 @@
 	}
 
 	@include mq("medium", "max-width") {
+    padding: 60px 0 30px 0;
+
+    h1 {
+      font-size: 6rem;
+    }
+
+    .col-6 {
+      @include calc(width, "100% - 15px");
+      margin-top: 4%;
+    }
 		.col-4 {
 			width: 350px;
 		}
@@ -143,9 +152,9 @@
 		}
 
 		h1 {
-			font-size: 2.5em;
 			margin-bottom: 15px;
-		}
+      font-size: 3.3rem;
+    }
 
 		h2 {
 			font-size: 1.3em;
@@ -172,19 +181,11 @@
 
 	@include mq("super-small", "max-width") {
 		padding: 0 0 25px 0;
-
     h1 {
-      font-size: 2.2em;
+      font-size: 2.2rem;
     }
-	}
 
-	@include mq("nano", "max-width") {
-    padding: 0 0 25px 0;
-		h1 {
-			font-size: 1.8em;
-		}
-
-		.col-6-fake {
+    .col-6-fake {
 			@include calc(width, "100% - 40px");
 		}
 	}
@@ -777,6 +778,7 @@
 	h1 {
 		color: $colorThree;
 		line-height: 1.2;
+    font-size: 1.5rem;
 		margin-bottom: 30px;
 	}
 
@@ -859,14 +861,14 @@
   }
 
   @include mq("small", "max-width") {
-    height: 930px;
+    height: auto;
       .col-6 {
         padding: 2%;
-        margin: 5% 0;
+        margin: 6% 0;
       }
   }
   @include mq("super-small", "max-width") {
-  height: 825px;
+  height: auto;
     .left-block {
       max-height: 260px;
       top:0;
@@ -994,6 +996,8 @@
     }
 }
 
+
+
 //how to play //////
 .how-to-play {
 	width: 100%;
@@ -1053,32 +1057,40 @@
 }
 
 
-//Contact///////
+
+//Contact///
 .contact {
+  .swiper-container {
+    padding-top: 15rem;
+  }
+}
+.contact, .slider {
 	width: 100%;
+  height: auto;
 	clear: both;
 	display: block;
 	overflow: hidden;
 	position: relative;
-	padding: 60px 0 40px 0;
 
 	.col-6 {
 		box-sizing: border-box;
+    height: 100%;
+    width: 50%;
+    padding: 5rem 0 4rem 1.5rem;
+    margin: 0;
+    display: table;
 	}
 
-	h5 {
-		margin-bottom: 50px;
+	h3 {
+		margin-bottom: 3rem;
 		color: $colorTwo;
 		opacity: 0.8;
-		border: 1px solid $colorTwo;
-		width: intrinsic;
-		max-width: 140px;
+    font-size: 0.9em;
 	}
 
 	h1 {
 		color: $colorTwo;
-		line-height: 1.2;
-		margin-bottom: 30px;
+    margin-bottom: 3rem;
 	}
 
 	p {
@@ -1137,16 +1149,16 @@
 		float: right;
 		text-align: center;
 		position: relative;
+    width: 36%;
 
 		h3, p {
 			color: $colorTwo;
 			text-align: center;
 
 		}
-
 		.image-circle {
 			box-sizing: border-box;
-			width: 75%;
+			width: 90%;
 			display: block;
 			margin: 15px auto;
 			float: none;
@@ -1158,25 +1170,30 @@
 	}
 
 	@include mq("small", "max-width") {
+  height: auto;
+    .col-6 {
+      background: none;
+      width: 100%;
+      display: inline-block;
+      padding-bottom: 1rem;
+    }
 
-		h5 {
-			margin-bottom: 40px;
-		}
+    h1 {
+      font-size: 2.5rem;
+    }
 
-		.col-6 {
-			background: none;
-			width: 100%;
-		}
 
-		p {
-			font-size: 1em;
-		}
+    .col-4 {
+      width: 100%;
 
-		.col-4 {
-			width: 100%;
-			padding-top: 30px;
-		}
-	}
+      .image-circle{
+        width: 65%;
+      }
+    }
+    .swiper-container {
+      padding: 0;
+    }
+  }
 }
 
 
@@ -1233,4 +1250,51 @@
 			margin: 0;
 		}
 	}
+}
+
+
+
+@keyframes slidy {
+0% { left: 30%; }
+15% { left: 30%; }
+30% { left: -10%; }
+45% { left: -10%; }
+50% { left: -53%; }
+60% { left: -53%; }
+70% { left: -95%; }
+80% { left: -95%; }
+86% { left: -132%; }
+100% { left: -132%; }
+
+}
+.slideshow {
+  background-color: $colorThree;
+  width: 100%;
+  padding: 4rem 0;
+
+    #slider {
+      overflow: hidden;
+      width: 100%;
+
+      figure {
+        position: relative;
+        width: 400%;
+        margin: 0;
+        left: 0%;
+        animation: 30s slidy infinite;
+
+      img {
+        width: 10%;
+        margin-right: 20px;
+        box-shadow: 0px 0px 17px -3px rgba(0,0,0,0.75);
+      }
+    }
+  }
+
+
+  @include mq("super-small", "max-width") {
+    figure {
+      width: 500%;
+    }
+  }
 }

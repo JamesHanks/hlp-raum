@@ -146,6 +146,15 @@ $grid-spacing:2%;
   }
 }
 
+.col-10 {
+  margin: 0 auto;
+  @include calc(width, "33.3% - 20px");
+
+  @include mq("small", "max-width") {
+    @include calc(width, "50% - 10px");
+  }
+}
+
 .shift-3 {
   @include calc(margin-left, "25% + 6px");
 }

@@ -268,11 +268,26 @@ ConversationDemo.prototype.updateAnswer = function(answer) {
     </section>-->
 
 
+    <section class="slideshow">
+      <div class="grid-container">
+        <div id="slider">
+            <figure>
+                <img src="/images/3.jpg" alt>
+                <img src="/images/10.jpg" alt>
+                <img src="/images/4.jpg" alt>
+                <img src="/images/5.jpg" alt>
+                <img src="/images/1.jpg" alt>
+            </figure>
+          </div>
+        </div>
+    </section>
+
+
     <section id="contact" class="contact">
         <div class="grid-container">
             <div class="col-6">
               <h1><%= I18n.t(:contact_us_title) %></h1>
-              <p><%= I18n.t(:contact_us_text_5) %></p>
+              <h3><%= I18n.t(:contact_us_text_5) %></h3>
               <p><%= I18n.t(:contact_us_text_6) %></p>
                 <a class="link-btn-one" href="mailto:contact@panstudio.co.uk?Subject=Hello%20Astana%20Enquiry"><%= I18n.t(:contact_us_cta) %></a>
                   <div class="logo-container">
@@ -285,38 +300,39 @@ ConversationDemo.prototype.updateAnswer = function(answer) {
 
 
               <div class="col-4">
-                  <div class="swiper-controls">
-                      <div class="swiper-button-next"></div>
-                      <div class="swiper-button-prev"></div>
-                  </div>
+                      <div class="swiper-controls">
+                          <div class="swiper-button-next"></div>
+                          <div class="swiper-button-prev"></div>
+                      </div>
 
-              <div class="swiper-container">
-                  <div class="swiper-wrapper">
-                      <div class="swiper-slide">
-                          <div class="image-circle"><img src="/images/rabbit.png"></div>
-                              <h3><%= I18n.t(:object_1) %></h3>
-                      </div>
-                      <div class="swiper-slide">
-                          <div class="image-circle"><img src="/images/house.png"></div>
-                          <h3><%= I18n.t(:object_2) %></h3>
-                      </div>
-                      <div class="swiper-slide">
-                          <div class="image-circle"><img src="/images/statue.png"></div>
-                          <h3><%= I18n.t(:object_3) %></h3>
-                      </div>
-                      <div class="swiper-slide">
-                          <div class="image-circle"><img src="/images/mountain.png"></div>
-                          <h3><%= I18n.t(:object_4) %></h3>
-                      </div>
-                      <div class="swiper-slide">
-                          <div class="image-circle"><img src="/images/bollendak.png"></div>
-                          <h3><%= I18n.t(:object_5) %></h3>
-                      </div>
-                </div>
-             </div>
+                  <div class="swiper-container">
+                      <div class="swiper-wrapper">
+                          <div class="swiper-slide">
+                              <div class="image-circle"><img src="/images/rabbit.png"></div>
+                                  <h3><%= I18n.t(:object_1) %></h3>
+                          </div>
+                          <div class="swiper-slide">
+                              <div class="image-circle"><img src="/images/house.png"></div>
+                              <h3><%= I18n.t(:object_2) %></h3>
+                          </div>
+                          <div class="swiper-slide">
+                              <div class="image-circle"><img src="/images/statue.png"></div>
+                              <h3><%= I18n.t(:object_3) %></h3>
+                          </div>
+                          <div class="swiper-slide">
+                              <div class="image-circle"><img src="/images/mountain.png"></div>
+                              <h3><%= I18n.t(:object_4) %></h3>
+                          </div>
+                          <div class="swiper-slide">
+                              <div class="image-circle"><img src="/images/bollendak.png"></div>
+                              <h3><%= I18n.t(:object_5) %></h3>
+                          </div>
+                    </div>
+                 </div>
              </div>
         </div>
     </section>
+
 
     <section class="supporters">
       <div class="grid-container">

@@ -185,7 +185,7 @@
   opacity: 0.5;
   background-size: 100% 100%;
   background-repeat: no-repeat;
-  top: 230px;
+  top: 450px;
   background-position: 0 0;
   @include transition(all, 0.2s, ease-in-out);
 
@@ -194,7 +194,7 @@
   }
 
   @include mq("small", "max-width") {
-   top: 190px;
+   top: 100px;
   }
 }
 

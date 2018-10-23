@@ -43,3 +43,23 @@
 		left: 0;
 	}
 }
+
+.datavisualiation {
+   width: 100%;
+   position: relative;
+   overflow: hidden;
+   background: $colorTwo;
+
+  &:after {
+    content: "";
+    display:block;
+    padding-bottom: 100%;
+    background: $colorTwo;
+  }
+  img {
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+}
